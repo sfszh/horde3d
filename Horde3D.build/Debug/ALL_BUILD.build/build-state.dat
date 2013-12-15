@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh
+c0000000052AC45D60000000000000092
+t1387021782
+s146
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies01fc73567d5cb841^784174567d5cb841^---0#1#1#--18"Check dependencies36"0B3F363B-8556-485A-A453-02FE7E9F441C-
+
+CPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh
+s408714582.455201
+e408714582.510131
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'104"PhaseScriptExecution CMake\ Rules Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.shf5da74567d5cb841^529982567d5cb841^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-408714582#0#8#-0#-----2@26"echo Build\ all\ projects-408714582#9#26#-0#-----2@19"Build all projects-408714582#35#19#-0#-----0#0#1#--256"PhaseScriptExecution CMake\ Rules Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh    cd /Users/sfszh/dev/Horde3D_SDK    /bin/sh -c /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ALL_BUILD.build/Script-2883E198BD1D4CE7AA8EB6EE.sh36"01ED83F5-2DB9-4559-85B8-77C218B08FDB-
+bD0AE4F9A-A736-4AE2-A3DD-FFAFC80AF2E3
+

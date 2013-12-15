@@ -1,0 +1,1233 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              B5E40DD273EB46019AE8D888 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A6C5F58323D2491BAFAEBE9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            BC562C8EFE6040EBBF88EFA3 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            7A954505E49749018D9BA12E /* PBXTargetDependency */,
+                            EC7A19D9525C4C2B90218479 /* PBXTargetDependency */,
+                            99F71C453C484C73BBB6F9D7 /* PBXTargetDependency */,
+                            33AD9AD87F5E42EBA0378B2B /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BCB88218867C42DF9FD612BB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            673C9B66E29C450C96E6B4CD /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+E8DA557EF82D47F082A6DF61 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5395F90F3297452ABF0C4781 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+364A1D6C0DF44F94A7F81DFD /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m */ = {isa = PBXBuildFile; fileRef = F2ED175785E047DCA37B0DB1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m */; settings = { COMPILER_FLAGS = ""; }; };
+543ED14F4CA8435B8D8085A8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m */ = {isa = PBXBuildFile; fileRef = 8217951F0E1143A9B2E006A4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m */; settings = { COMPILER_FLAGS = ""; }; };
+0D1CE80454CF459484EDD07F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m */ = {isa = PBXBuildFile; fileRef = 8AEB7BB1429F4D45AB796B08 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m */; settings = { COMPILER_FLAGS = ""; }; };
+33E2B33AE499450FAE4C7BAE /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 489FB9B6684844C29E515D35 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m */; settings = { COMPILER_FLAGS = ""; }; };
+B438D444C3D140F7A8CEE267 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 17FA25F8ECF9462580512399 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m */; settings = { COMPILER_FLAGS = ""; }; };
+9591FCCC2E3E4F4C8A2B6828 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c */ = {isa = PBXBuildFile; fileRef = A28EEE9B290F47F094A57457 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c */; settings = { COMPILER_FLAGS = ""; }; };
+966851394FD64C60B8FBEBD2 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m */ = {isa = PBXBuildFile; fileRef = 4718A2D265DC478E969199A7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m */; settings = { COMPILER_FLAGS = ""; }; };
+4DA44D14C5D14E03B5C701C9 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 443A0BF4F86E4C31B5D87F7B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m */; settings = { COMPILER_FLAGS = ""; }; };
+8789CE5478564975BE7B213D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c */ = {isa = PBXBuildFile; fileRef = 1F9F4BB0A6784C1EA2A1FDE0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c */; settings = { COMPILER_FLAGS = ""; }; };
+A741ED89A6ED4AC6BE63AF8E /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c */ = {isa = PBXBuildFile; fileRef = F4093383E390496FBF0176B2 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c */; settings = { COMPILER_FLAGS = ""; }; };
+A71901408C904538B474A388 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c */ = {isa = PBXBuildFile; fileRef = 7DC9E59BEB3F4CF187B09CF0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c */; settings = { COMPILER_FLAGS = ""; }; };
+22F9D27D81274573BBCAE690 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c */ = {isa = PBXBuildFile; fileRef = F6D1FFE6B56A4C0CAC8F5799 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c */; settings = { COMPILER_FLAGS = ""; }; };
+36B86D7F4F0146DCBF1CB77C /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c */ = {isa = PBXBuildFile; fileRef = B815C5A6A93F40478F8D9F84 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c */; settings = { COMPILER_FLAGS = ""; }; };
+039805268DC449409F890386 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c */ = {isa = PBXBuildFile; fileRef = E96821C835DF43D19C6FDE1C /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c */; settings = { COMPILER_FLAGS = ""; }; };
+33981B23CF1C4515A01A3330 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c */ = {isa = PBXBuildFile; fileRef = B859071A51C542B6949C8B5A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c */; settings = { COMPILER_FLAGS = ""; }; };
+433D7E7CA92243F0B6316A63 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c */ = {isa = PBXBuildFile; fileRef = A1C19E995E7A4816A770C058 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c */; settings = { COMPILER_FLAGS = ""; }; };
+FA6A7F98D666468B8F71570F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c */ = {isa = PBXBuildFile; fileRef = 63BA7440D1CE4DFE8CA66530 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c */; settings = { COMPILER_FLAGS = ""; }; };
+7D2910580B044DCBB1C48EA8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c */ = {isa = PBXBuildFile; fileRef = 7F80CBF7842B475B873E597B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c */; settings = { COMPILER_FLAGS = ""; }; };
+3E76F7DF5F9B47DF885F1E0D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c */ = {isa = PBXBuildFile; fileRef = 94FD3920A8A649A497AB1218 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c */; settings = { COMPILER_FLAGS = ""; }; };
+FE3A5ECDD74A4365AB8EBA48 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c */ = {isa = PBXBuildFile; fileRef = CB81DB0A3759491690140F5E /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c */; settings = { COMPILER_FLAGS = ""; }; };
+368E743642C943CD8C1811F5 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9FBBB96D42394ACC9AF8FF59 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist */; settings = { COMPILER_FLAGS = ""; }; };
+BE3AE0406A134E9489F87FB7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A1FEED47054A4E05ABF7547B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+85D05016793F4993AFDA6BE7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp */ = {isa = PBXBuildFile; fileRef = 3FB72762EEF143A2B8C9C5A1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D0EEAA0447054DE2884E0B27 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h */ = {isa = PBXBuildFile; fileRef = 6B78EF826B3E4F03A4F3AD0F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h */; settings = { COMPILER_FLAGS = ""; }; };
+F43FAA770EC7493089DF84F8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp */ = {isa = PBXBuildFile; fileRef = 12695F1CC7F14F3AA23E496F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+67DB6773488E4910BC5EFB0A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h */ = {isa = PBXBuildFile; fileRef = FC279E46A5814234864C31E6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h */; settings = { COMPILER_FLAGS = ""; }; };
+F615F7B20879498192D5179D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp */ = {isa = PBXBuildFile; fileRef = EDC4C7F8E6A14EFE801A23C4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+125ECA6CDCD6459697ACA429 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3726868524424B63AA6DCE80 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist */; settings = { COMPILER_FLAGS = ""; }; };
+3E6B569DA3E14A5681447AEF /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A6A88BDD73A94F65A41140D6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+52190AE584954210B056D106 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp */ = {isa = PBXBuildFile; fileRef = 9B19FF0E43794337988EA1AA /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6FD316D267914D1995EB8E7D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h */ = {isa = PBXBuildFile; fileRef = D7B4E53DCE904902A584DC9A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h */; settings = { COMPILER_FLAGS = ""; }; };
+4979FDFCC54044C2B6DCDF40 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp */ = {isa = PBXBuildFile; fileRef = E5DA0031D3834537B26F933B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              AD5C44634D2B4C86899DC038 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              ED2FF2B2EE254848954E0EBB /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              AC9C3D9C005C488DB4555F66 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              9F52591021B9466FA94A0DAC /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              C74409DBD41E4EE48F05C15C /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              FBED58304B13425D8BD7D270 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2A8E095E9B384CB8994765C2;
+                     remoteInfo = Knight;
+              };
+              1E6DBF770E334439A80E8D34 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0141B0A63FD449F582DCD476;
+                     remoteInfo = Chicago;
+              };
+              7607884FD84C4939859A4602 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 831FBE8B86A54D639B5D2C54;
+                     remoteInfo = ZERO_CHECK;
+              };
+              D4FC542AA0E14E2DBA23B3F8 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7C8A6433745F4E4FB6764D5D;
+                     remoteInfo = glfw;
+              };
+              E8FE52C2A88A4DF2BE55B625 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 831FBE8B86A54D639B5D2C54;
+                     remoteInfo = ZERO_CHECK;
+              };
+              58270AD2B4584CAEA1F585E1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 831FBE8B86A54D639B5D2C54;
+                     remoteInfo = ZERO_CHECK;
+              };
+              0FB51608555348E797E2A9FF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7C8A6433745F4E4FB6764D5D;
+                     remoteInfo = glfw;
+              };
+              09FAAE4EDF454D3CB246E4D2 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 831FBE8B86A54D639B5D2C54;
+                     remoteInfo = ZERO_CHECK;
+              };
+              CF26EC4153474C73B4A8F27F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4DCA26760B4840758DE3D50D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7C8A6433745F4E4FB6764D5D;
+                     remoteInfo = glfw;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+23DD9D5F4CCA4D30B0318412 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5395F90F3297452ABF0C4781 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "glfw/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+F2ED175785E047DCA37B0DB1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_enable.m"; path = "glfw/lib/cocoa/cocoa_enable.m"; sourceTree = SOURCE_ROOT; };
+8217951F0E1143A9B2E006A4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_fullscreen.m"; path = "glfw/lib/cocoa/cocoa_fullscreen.m"; sourceTree = SOURCE_ROOT; };
+8AEB7BB1429F4D45AB796B08 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_glext.m"; path = "glfw/lib/cocoa/cocoa_glext.m"; sourceTree = SOURCE_ROOT; };
+489FB9B6684844C29E515D35 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_init.m"; path = "glfw/lib/cocoa/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+17FA25F8ECF9462580512399 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_joystick.m"; path = "glfw/lib/cocoa/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+A28EEE9B290F47F094A57457 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "cocoa_thread.c"; path = "glfw/lib/cocoa/cocoa_thread.c"; sourceTree = SOURCE_ROOT; };
+4718A2D265DC478E969199A7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_time.m"; path = "glfw/lib/cocoa/cocoa_time.m"; sourceTree = SOURCE_ROOT; };
+443A0BF4F86E4C31B5D87F7B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.objc"; fileEncoding = 4; name = "cocoa_window.m"; path = "glfw/lib/cocoa/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+1F9F4BB0A6784C1EA2A1FDE0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "enable.c"; path = "glfw/lib/enable.c"; sourceTree = SOURCE_ROOT; };
+F4093383E390496FBF0176B2 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "fullscreen.c"; path = "glfw/lib/fullscreen.c"; sourceTree = SOURCE_ROOT; };
+7DC9E59BEB3F4CF187B09CF0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "glext.c"; path = "glfw/lib/glext.c"; sourceTree = SOURCE_ROOT; };
+F6D1FFE6B56A4C0CAC8F5799 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "image.c"; path = "glfw/lib/image.c"; sourceTree = SOURCE_ROOT; };
+B815C5A6A93F40478F8D9F84 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "init.c"; path = "glfw/lib/init.c"; sourceTree = SOURCE_ROOT; };
+E96821C835DF43D19C6FDE1C /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "input.c"; path = "glfw/lib/input.c"; sourceTree = SOURCE_ROOT; };
+B859071A51C542B6949C8B5A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "joystick.c"; path = "glfw/lib/joystick.c"; sourceTree = SOURCE_ROOT; };
+A1C19E995E7A4816A770C058 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "stream.c"; path = "glfw/lib/stream.c"; sourceTree = SOURCE_ROOT; };
+63BA7440D1CE4DFE8CA66530 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "tga.c"; path = "glfw/lib/tga.c"; sourceTree = SOURCE_ROOT; };
+7F80CBF7842B475B873E597B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "thread.c"; path = "glfw/lib/thread.c"; sourceTree = SOURCE_ROOT; };
+94FD3920A8A649A497AB1218 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "time.c"; path = "glfw/lib/time.c"; sourceTree = SOURCE_ROOT; };
+CB81DB0A3759491690140F5E /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "window.c"; path = "glfw/lib/window.c"; sourceTree = SOURCE_ROOT; };
+0420390B42134B7EB9C7A93A /* glfw */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libglfw.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+9FBBB96D42394ACC9AF8FF59 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text.plist"; fileEncoding = 4; name = "Info.plist"; path = "Chicago/CMakeFiles/Chicago.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+A1FEED47054A4E05ABF7547B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "Chicago/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+3FB72762EEF143A2B8C9C5A1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "app.cpp"; path = "Chicago/app.cpp"; sourceTree = SOURCE_ROOT; };
+6B78EF826B3E4F03A4F3AD0F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "app.h"; path = "Chicago/app.h"; sourceTree = SOURCE_ROOT; };
+12695F1CC7F14F3AA23E496F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "crowd.cpp"; path = "Chicago/crowd.cpp"; sourceTree = SOURCE_ROOT; };
+FC279E46A5814234864C31E6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "crowd.h"; path = "Chicago/crowd.h"; sourceTree = SOURCE_ROOT; };
+EDC4C7F8E6A14EFE801A23C4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "Chicago/main.cpp"; sourceTree = SOURCE_ROOT; };
+111967378FD74D598DCFC7EF /* Chicago */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Chicago; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+3726868524424B63AA6DCE80 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text.plist"; fileEncoding = 4; name = "Info.plist"; path = "Knight/CMakeFiles/Knight.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+A6A88BDD73A94F65A41140D6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "Knight/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+9B19FF0E43794337988EA1AA /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "app.cpp"; path = "Knight/app.cpp"; sourceTree = SOURCE_ROOT; };
+D7B4E53DCE904902A584DC9A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "app.h"; path = "Knight/app.h"; sourceTree = SOURCE_ROOT; };
+E5DA0031D3834537B26F933B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "Knight/main.cpp"; sourceTree = SOURCE_ROOT; };
+42AB10347D5644F795DA850E /* Knight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Knight; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              7FC0DF515E864EB3A2851D6E  = {
+                     isa = PBXGroup;
+                     children = (
+                            95E9EEA2388B42CF8EE4B5F6 /* Sources */,
+                            41236B30737F44B2A58BA48E /* Resources */,
+                            591998F3F1EC4BBCB062D5E9 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              95E9EEA2388B42CF8EE4B5F6 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            90F45548DC694C65A0C37CB9 /* ALL_BUILD */,
+                            DCF4FB0940184DF7836E9944 /* ZERO_CHECK */,
+                            75D19B54A55442E6906B3C33 /* glfw */,
+                            0D811105496445C282DC2E01 /* Chicago */,
+                            8047E4D8AA3342848C63D6AD /* Knight */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              41236B30737F44B2A58BA48E /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              90F45548DC694C65A0C37CB9 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7E57C132EE864BA7A7B94126 /* CMake Rules */,
+                            23DD9D5F4CCA4D30B0318412 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              7E57C132EE864BA7A7B94126 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              DCF4FB0940184DF7836E9944 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EF0297C6A3094A4E929B5A07 /* CMake Rules */,
+                            23DD9D5F4CCA4D30B0318412 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              EF0297C6A3094A4E929B5A07 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              75D19B54A55442E6906B3C33 /* glfw */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AF613EC8746548CE8638B72D /* Source Files */,
+                            5395F90F3297452ABF0C4781 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeLists.txt */,
+                     );
+                     name = glfw;
+                     sourceTree = "<group>";
+              };
+              AF613EC8746548CE8638B72D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F2ED175785E047DCA37B0DB1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m */,
+                            8217951F0E1143A9B2E006A4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m */,
+                            8AEB7BB1429F4D45AB796B08 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m */,
+                            489FB9B6684844C29E515D35 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m */,
+                            17FA25F8ECF9462580512399 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m */,
+                            A28EEE9B290F47F094A57457 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c */,
+                            4718A2D265DC478E969199A7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m */,
+                            443A0BF4F86E4C31B5D87F7B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m */,
+                            1F9F4BB0A6784C1EA2A1FDE0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c */,
+                            F4093383E390496FBF0176B2 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c */,
+                            7DC9E59BEB3F4CF187B09CF0 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c */,
+                            F6D1FFE6B56A4C0CAC8F5799 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c */,
+                            B815C5A6A93F40478F8D9F84 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c */,
+                            E96821C835DF43D19C6FDE1C /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c */,
+                            B859071A51C542B6949C8B5A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c */,
+                            A1C19E995E7A4816A770C058 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c */,
+                            63BA7440D1CE4DFE8CA66530 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c */,
+                            7F80CBF7842B475B873E597B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c */,
+                            94FD3920A8A649A497AB1218 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c */,
+                            CB81DB0A3759491690140F5E /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0D811105496445C282DC2E01 /* Chicago */ = {
+                     isa = PBXGroup;
+                     children = (
+                            98E10B4158934728A47201EE /* Header Files */,
+                            7B46BDBEC0D144C89ADE42BD /* Source Files */,
+                            84600CC149904AB59BEB4ED5 /* Resources */,
+                            A1FEED47054A4E05ABF7547B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeLists.txt */,
+                     );
+                     name = Chicago;
+                     sourceTree = "<group>";
+              };
+              98E10B4158934728A47201EE /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6B78EF826B3E4F03A4F3AD0F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h */,
+                            FC279E46A5814234864C31E6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              7B46BDBEC0D144C89ADE42BD /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3FB72762EEF143A2B8C9C5A1 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp */,
+                            12695F1CC7F14F3AA23E496F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp */,
+                            EDC4C7F8E6A14EFE801A23C4 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              84600CC149904AB59BEB4ED5 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9FBBB96D42394ACC9AF8FF59 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist */,
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              8047E4D8AA3342848C63D6AD /* Knight */ = {
+                     isa = PBXGroup;
+                     children = (
+                            97AC1FCABCA84A1C9AE6AEC9 /* Header Files */,
+                            20127E54D77A4980B76A814B /* Source Files */,
+                            A6D64AAB44944AB6B7B79C3D /* Resources */,
+                            A6A88BDD73A94F65A41140D6 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeLists.txt */,
+                     );
+                     name = Knight;
+                     sourceTree = "<group>";
+              };
+              97AC1FCABCA84A1C9AE6AEC9 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D7B4E53DCE904902A584DC9A /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              20127E54D77A4980B76A814B /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9B19FF0E43794337988EA1AA /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp */,
+                            E5DA0031D3834537B26F933B /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              A6D64AAB44944AB6B7B79C3D /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3726868524424B63AA6DCE80 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist */,
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              591998F3F1EC4BBCB062D5E9 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0420390B42134B7EB9C7A93A /* glfw */,
+                            111967378FD74D598DCFC7EF /* Chicago */,
+                            42AB10347D5644F795DA850E /* Knight */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7C8A6433745F4E4FB6764D5D /* glfw */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 168D2FBD82BE47EFA1EA0718 /* Build configuration list for PBXNativeTarget "glfw" */;
+                     buildPhases = (
+                            38CCF8DB409B48A3832C824E /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            59415CE3A4854C95947A8360 /* PBXTargetDependency */,
+                     );
+                     name = glfw;
+                     productName = glfw;
+                     productReference = 0420390B42134B7EB9C7A93A /* glfw */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              0141B0A63FD449F582DCD476 /* Chicago */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 5781B0CF1E7B4735972818DA /* Build configuration list for PBXNativeTarget "Chicago" */;
+                     buildPhases = (
+                            7EDCE256B38A44D5A9C11DEB /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            31B23A10E1A541D1BA2331F8 /* PBXTargetDependency */,
+                            B6619BF72A80488099CC04D8 /* PBXTargetDependency */,
+                     );
+                     name = Chicago;
+                     productName = Chicago;
+                     productReference = 111967378FD74D598DCFC7EF /* Chicago */;
+                     productType = "com.apple.product-type.application";
+              };
+              2A8E095E9B384CB8994765C2 /* Knight */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 3D5B463B70CD4645AD2C7CFC /* Build configuration list for PBXNativeTarget "Knight" */;
+                     buildPhases = (
+                            6D07B67380F4441C9B862C32 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            234D7D74352446799CFA5A60 /* PBXTargetDependency */,
+                            3A8083060C5940A19508C9B7 /* PBXTargetDependency */,
+                     );
+                     name = Knight;
+                     productName = Knight;
+                     productReference = 42AB10347D5644F795DA850E /* Knight */;
+                     productType = "com.apple.product-type.application";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              4DCA26760B4840758DE3D50D /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 1F202A7AED474917A8ED36E8 /* Build configuration list for PBXProject  "Project" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            ED2FF2B2EE254848954E0EBB /* Debug */,
+                            AC9C3D9C005C488DB4555F66 /* Release */,
+                            9F52591021B9466FA94A0DAC /* MinSizeRel */,
+                            C74409DBD41E4EE48F05C15C /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 7FC0DF515E864EB3A2851D6E;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            B5E40DD273EB46019AE8D888 /* ALL_BUILD */,
+                            831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */,
+                            7C8A6433745F4E4FB6764D5D /* glfw */,
+                            0141B0A63FD449F582DCD476 /* Chicago */,
+                            2A8E095E9B384CB8994765C2 /* Knight */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              9FBAB24104A744BA806097B7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              BC562C8EFE6040EBBF88EFA3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples -f /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              056594935AFA49A1AF910997 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              673C9B66E29C450C96E6B4CD /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples -f /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              38CCF8DB409B48A3832C824E /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            364A1D6C0DF44F94A7F81DFD /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m */,
+                            543ED14F4CA8435B8D8085A8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m */,
+                            0D1CE80454CF459484EDD07F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m */,
+                            33E2B33AE499450FAE4C7BAE /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m */,
+                            B438D444C3D140F7A8CEE267 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m */,
+                            9591FCCC2E3E4F4C8A2B6828 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c */,
+                            966851394FD64C60B8FBEBD2 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m */,
+                            4DA44D14C5D14E03B5C701C9 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m */,
+                            8789CE5478564975BE7B213D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c */,
+                            A741ED89A6ED4AC6BE63AF8E /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c */,
+                            A71901408C904538B474A388 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c */,
+                            22F9D27D81274573BBCAE690 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c */,
+                            36B86D7F4F0146DCBF1CB77C /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c */,
+                            039805268DC449409F890386 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c */,
+                            33981B23CF1C4515A01A3330 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c */,
+                            433D7E7CA92243F0B6316A63 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c */,
+                            FA6A7F98D666468B8F71570F /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c */,
+                            7D2910580B044DCBB1C48EA8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c */,
+                            3E76F7DF5F9B47DF885F1E0D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c */,
+                            FE3A5ECDD74A4365AB8EBA48 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              7EDCE256B38A44D5A9C11DEB /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            85D05016793F4993AFDA6BE7 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp */,
+                            F43FAA770EC7493089DF84F8 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp */,
+                            F615F7B20879498192D5179D /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              6D07B67380F4441C9B862C32 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            52190AE584954210B056D106 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp */,
+                            4979FDFCC54044C2B6DCDF40 /* /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              7A954505E49749018D9BA12E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2A8E095E9B384CB8994765C2 /* Knight */;
+                     targetProxy = FBED58304B13425D8BD7D270 /* PBXContainerItemProxy */;
+              };
+              EC7A19D9525C4C2B90218479 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0141B0A63FD449F582DCD476 /* Chicago */;
+                     targetProxy = 1E6DBF770E334439A80E8D34 /* PBXContainerItemProxy */;
+              };
+              99F71C453C484C73BBB6F9D7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */;
+                     targetProxy = 7607884FD84C4939859A4602 /* PBXContainerItemProxy */;
+              };
+              33AD9AD87F5E42EBA0378B2B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7C8A6433745F4E4FB6764D5D /* glfw */;
+                     targetProxy = D4FC542AA0E14E2DBA23B3F8 /* PBXContainerItemProxy */;
+              };
+              59415CE3A4854C95947A8360 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */;
+                     targetProxy = E8FE52C2A88A4DF2BE55B625 /* PBXContainerItemProxy */;
+              };
+              31B23A10E1A541D1BA2331F8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */;
+                     targetProxy = 58270AD2B4584CAEA1F585E1 /* PBXContainerItemProxy */;
+              };
+              B6619BF72A80488099CC04D8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7C8A6433745F4E4FB6764D5D /* glfw */;
+                     targetProxy = 0FB51608555348E797E2A9FF /* PBXContainerItemProxy */;
+              };
+              234D7D74352446799CFA5A60 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 831FBE8B86A54D639B5D2C54 /* ZERO_CHECK */;
+                     targetProxy = 09FAAE4EDF454D3CB246E4D2 /* PBXContainerItemProxy */;
+              };
+              3A8083060C5940A19508C9B7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7C8A6433745F4E4FB6764D5D /* glfw */;
+                     targetProxy = CF26EC4153474C73B4A8F27F /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              19650F75FF82427598278BE2 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/build;
+                     };
+                     name = Debug;
+              };
+              BA5DBC5F3A1B4DCB9D102AE1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/build;
+                     };
+                     name = Release;
+              };
+              50854BA76F8E4B7880353766 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/build;
+                     };
+                     name = MinSizeRel;
+              };
+              426D739A0D064841BF1313EF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              D89E83E9CF3F41179D411D31 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A39BF9D19BB14C9DB351E5B1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5DF6F97F773F4734850292A1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8CC318C8C0DF4101BF247407 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              36D11FA0B501491BB4C891C4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              88B03D65993C4A9E9C69B04F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              87F8C027F3DC4189A06156B3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              83A7E240763348FDBE7684AF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              853F104CA59D4EF8B2404FDE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = glfw;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4E68B0A0C3914E928DD9CBCE /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = glfw;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BD84FBC0020348C9903B7030 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = glfw;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C267D5FD2B6F4651907921C3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = glfw;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              56B03F10086E457AB25B9AE6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Chicago;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              91F8A087F4E947F3B198B878 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Chicago;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A24B88454C9C49DDBDA38225 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Chicago;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              67D26A0518C24995B64C2118 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Chicago;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              EAC78E1660BD4D0B9774C189 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Knight;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D6E8DB49EB4844CAA59E2D0A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Knight;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D9BDDE57EF774D0CB91C49FF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Knight;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              AFEBFF08D3934C0D927BAE20 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++", "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw", );
+                            INFOPLIST_FILE = "/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = Knight;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              1F202A7AED474917A8ED36E8 /* Build configuration list for PBXProject  "Project" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            19650F75FF82427598278BE2 /* Debug */,
+                            BA5DBC5F3A1B4DCB9D102AE1 /* Release */,
+                            50854BA76F8E4B7880353766 /* MinSizeRel */,
+                            426D739A0D064841BF1313EF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A6C5F58323D2491BAFAEBE9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D89E83E9CF3F41179D411D31 /* Debug */,
+                            A39BF9D19BB14C9DB351E5B1 /* Release */,
+                            5DF6F97F773F4734850292A1 /* MinSizeRel */,
+                            8CC318C8C0DF4101BF247407 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BCB88218867C42DF9FD612BB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            36D11FA0B501491BB4C891C4 /* Debug */,
+                            88B03D65993C4A9E9C69B04F /* Release */,
+                            87F8C027F3DC4189A06156B3 /* MinSizeRel */,
+                            83A7E240763348FDBE7684AF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              168D2FBD82BE47EFA1EA0718 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            853F104CA59D4EF8B2404FDE /* Debug */,
+                            4E68B0A0C3914E928DD9CBCE /* Release */,
+                            BD84FBC0020348C9903B7030 /* MinSizeRel */,
+                            C267D5FD2B6F4651907921C3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5781B0CF1E7B4735972818DA /* Build configuration list for PBXNativeTarget "Chicago" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            56B03F10086E457AB25B9AE6 /* Debug */,
+                            91F8A087F4E947F3B198B878 /* Release */,
+                            A24B88454C9C49DDBDA38225 /* MinSizeRel */,
+                            67D26A0518C24995B64C2118 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3D5B463B70CD4645AD2C7CFC /* Build configuration list for PBXNativeTarget "Knight" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            EAC78E1660BD4D0B9774C189 /* Debug */,
+                            D6E8DB49EB4844CAA59E2D0A /* Release */,
+                            D9BDDE57EF774D0CB91C49FF /* MinSizeRel */,
+                            AFEBFF08D3934C0D927BAE20 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 4DCA26760B4840758DE3D50D;
+}

@@ -1,0 +1,291 @@
+TColladaConv
+v6
+r1
+cCheck dependencies
+cCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005283750400000000000000AA
+t1384346884
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526B6C1B000000000000044C
+t1382771739
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526B6C1B00000000000001DB
+t1382771739
+s475
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv
+t2
+s0
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/ColladaConv.LinkFileList
+c0000000052AC3EC1000000000000028E
+t1387019969
+s654
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o
+t1387019971
+s312072
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o
+t1387019970
+s394648
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o
+t1387019970
+s148236
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o
+t1387019971
+s84288
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o
+t1387019971
+s24404
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp
+c000000004DE0A076000000000000AA42
+t1306566774
+s43586
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp
+c000000004DE0A0760000000000000D85
+t1306566774
+s3461
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp
+c000000004DE0A0760000000000002131
+t1306566774
+s8497
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp
+c000000004DE0A0760000000000001A0C
+t1306566774
+s6668
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp
+c000000004DE0A0760000000000000E39
+t1306566774
+s3641
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb0592a41765cb841^a2ef2a41765cb841^---0#1#1#--18"Check dependencies36"314ED5F1-CDC3-4CDB-9809-770EEB8BE15F-
+
+CCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408712769.168539
+e408712771.135619
+r1
+xCompileC
+xHorde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibImages.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utXML.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/rapidxml.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibEffects.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibMaterials.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibGeometries.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeCommon.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibVisualScenes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibAnimations.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibControllers.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibNodes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utPlatform.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp220"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o Horde3D/Source/ColladaConverter/converter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerda752b41765cb841^20b82243765cb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp0000000000000000^2351"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o Horde3D/Source/ColladaConverter/converter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o36"12983AEC-132A-4B66-861A-CB4D8519E171-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+
+CCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408712769.170670
+e408712770.724863
+r1
+xCompileC
+xHorde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibImages.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utXML.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/rapidxml.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibEffects.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibMaterials.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibGeometries.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeCommon.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibVisualScenes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibAnimations.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibControllers.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibNodes.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp216"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o Horde3D/Source/ColladaConverter/daeMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfcc22b41765cb841^f390b942765cb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp0000000000000000^2339"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o Horde3D/Source/ColladaConverter/daeMain.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o36"187CCBAC-841F-47BA-93B7-230620F35D06-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+
+CCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408712769.171034
+e408712770.411324
+r1
+xCompileC
+xHorde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibImages.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utXML.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/rapidxml.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibEffects.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibMaterials.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibGeometries.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeCommon.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibVisualScenes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibAnimations.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibControllers.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibNodes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utPlatform.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp210"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o Horde3D/Source/ColladaConverter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler9e062c41765cb841^9e3f6942765cb841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp0000000000000000^2321"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o Horde3D/Source/ColladaConverter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/main.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o36"C27ABD27-45FA-49EA-ADF2-EA24690C7175-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+
+CCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408712770.411896
+e408712771.595039
+r1
+xCompileC
+xHorde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/converter.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeMain.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibImages.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utXML.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/rapidxml.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibEffects.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibMaterials.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibGeometries.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeCommon.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibVisualScenes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibAnimations.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibControllers.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/daeLibNodes.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utPlatform.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp220"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o Horde3D/Source/ColladaConverter/optimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler49856942765cb841^185f9843765cb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp0000000000000000^2351"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o Horde3D/Source/ColladaConverter/optimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/optimizer.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o36"8140C67C-50F6-4A23-AAD1-4B861E219FDE-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+
+CCompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408712770.725280
+e408712771.356697
+r1
+xCompileC
+xHorde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utPlatform.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp212"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o Horde3D/Source/ColladaConverter/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf8c5b942765cb841^d9256e43765cb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp0000000000000000^2327"CompileC Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o Horde3D/Source/ColladaConverter/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/utils.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o36"AACF3422-F65A-444F-BB97-BDFA5DADFA0D-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+
+CLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv normal x86_64
+s408712771.895679
+e408712772.103089
+r1
+xLd
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv
+xnormal
+xx86_64
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/ColladaConv.LinkFileList
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv58"Ld Horde3D/Binaries/Darwin/Debug/ColladaConv normal x86_64cb67e543765cb841^49651a44765cb841^---0#0#1#--980"Ld Horde3D/Binaries/Darwin/Debug/ColladaConv normal x86_64    cd /Users/sfszh/dev/Horde3D_SDK    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -filelist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/ColladaConv.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/ColladaConv_dependency_info.dat -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv36"DC071F38-C5F2-4497-8F6A-885D021BFDC2-
+b381D6561-EFFA-4DE5-9D1D-64C436236C03
+

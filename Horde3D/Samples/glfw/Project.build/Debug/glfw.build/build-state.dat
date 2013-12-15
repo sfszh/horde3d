@@ -1,0 +1,772 @@
+Tglfw
+v6
+r1
+cCheck dependencies
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005283750400000000000000AA
+t1384346884
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526B6C1B000000000000044C
+t1382771739
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526B6C1B00000000000001DB
+t1382771739
+s475
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a
+t1387023459
+s255752
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o
+t1387023458
+s2984
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o
+t1387023458
+s8064
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o
+t1387023458
+s4684
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o
+t1387023458
+s37748
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o
+t1387023459
+s3744
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o
+t1387023458
+s13692
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o
+t1387023459
+s6676
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o
+t1387023459
+s63240
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o
+t1387023458
+s8280
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o
+t1387023458
+s4348
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o
+t1387023458
+s6604
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glfw.LinkFileList
+c0000000052AC4C6100000000000008ED
+t1387023457
+s2285
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o
+t1387023458
+s14096
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o
+t1387023459
+s9716
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o
+t1387023459
+s7824
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o
+t1387023459
+s4080
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o
+t1387023459
+s7416
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o
+t1387023459
+s10008
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o
+t1387023459
+s11260
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o
+t1387023459
+s3496
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o
+t1387023459
+s21492
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+c000000004DE0A07A0000000000004D30
+t1306566778
+s19760
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m
+c000000004DE0A07A0000000000000811
+t1306566778
+s2065
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m
+c000000004DE0A07A0000000000001001
+t1306566778
+s4097
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m
+c000000004DE0A07A0000000000000A14
+t1306566778
+s2580
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m
+c000000004DE0A07A0000000000002502
+t1306566778
+s9474
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m
+c000000004DE0A07A0000000000000990
+t1306566778
+s2448
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c
+c000000004DE0A07A0000000000002F09
+t1306566778
+s12041
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m
+c000000004DE0A07A0000000000000E97
+t1306566778
+s3735
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m
+c000000004DE0A07A000000000000649B
+t1306566778
+s25755
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+c000000004DE0A07A0000000000001CFC
+t1306566778
+s7420
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c
+c000000004DE0A07A0000000000002170
+t1306566778
+s8560
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c
+c000000004DE0A07A0000000000000C97
+t1306566778
+s3223
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c
+c000000004DE0A07A0000000000001A54
+t1306566778
+s6740
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c
+c000000004DE0A07A0000000000004597
+t1306566778
+s17815
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c
+c000000004DE0A07A0000000000000D54
+t1306566778
+s3412
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c
+c000000004DE0A07A0000000000001DC4
+t1306566778
+s7620
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+c000000004DE0A07A000000000000260F
+t1306566778
+s9743
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c
+c000000004DE0A07A0000000000000CB0
+t1306566778
+s3248
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c
+c000000004DE0A07A00000000000013EF
+t1306566778
+s5103
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c
+c000000004DE0A07A0000000000002D6A
+t1306566778
+s11626
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c
+c000000004DE0A07A000000000000257F
+t1306566778
+s9599
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c
+c000000004DE0A07A0000000000000AA3
+t1306566778
+s2723
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c
+c000000004DE0A07A0000000000007861
+t1306566778
+s30817
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa8e25e05875cb841^c2f75e05875cb841^---0#1#1#--18"Check dependencies36"431A8A92-50B3-45FC-8237-69CC164EA678-
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716257.836305
+e408716258.606523
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m181"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o glfw/lib/cocoa/cocoa_enable.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc232d6e1835cb841^42099be2835cb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m0000000000000000^2391"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o glfw/lib/cocoa/cocoa_enable.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_enable.o36"FD7B309F-A8C5-4518-A0EB-B9ACDC8B9F46-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716257.836541
+e408716258.637609
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m:79:33: warning: 'CGDisplayAvailableModes' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o    NSArray *modes = (NSArray *)CGDisplayAvailableModes( CGMainDisplayID() );
+o                                ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m:30:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:437:22: note: 'CGDisplayAvailableModes' declared here
+oCG_EXTERN CFArrayRef CGDisplayAvailableModes(CGDirectDisplayID display)
+o                     ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m189"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o glfw/lib/cocoa/cocoa_fullscreen.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler253bd6e1835cb841^4433a3e2835cb841^-1932"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m:79:33: warning: 'CGDisplayAvailableModes' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]    NSArray *modes = (NSArray *)CGDisplayAvailableModes( CGMainDisplayID() );                                ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m:30:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:437:22: note: 'CGDisplayAvailableModes' declared hereCG_EXTERN CFArrayRef CGDisplayAvailableModes(CGDirectDisplayID display)                     ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"'CGDisplayAvailableModes' is deprecated: first deprecated in OS X 10.6-408716258#18446744073709551615#0#1(2@39"'CGDisplayAvailableModes' declared here-408716258#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@180"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h0000000000000000^436#21#436#21#17897#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m0000000000000000^78#32#78#32#3448#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@85"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m0000000000000000^2415"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o glfw/lib/cocoa/cocoa_fullscreen.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_fullscreen.o36"F109132D-C5F4-4DE9-B6AB-EB0440BA5221-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716257.836895
+e408716258.601471
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m179"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o glfw/lib/cocoa/cocoa_glext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerac56d6e1835cb841^cafa99e2835cb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m0000000000000000^2385"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o glfw/lib/cocoa/cocoa_glext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_glext.o36"3727F451-7ECD-42EC-A1E0-9047C89BDDCC-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716257.838091
+e408716258.654421
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:101:9: warning: 'SetFrontProcess' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]
+o        SetFrontProcess( &psn );
+o        ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:33:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:43:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h:35:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Processes.h:603:1: note: 'SetFrontProcess' declared here
+oSetFrontProcess(const ProcessSerialNumber * PSN)              AVAILABLE_MAC_OS_X_VERSION_10_0_AND_LATER_BUT_DEPRECATED_IN_MAC_OS_X_VERSION_10_9;
+o^
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:252:18: warning: 'CGDisplayCurrentMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o        (NSDictionary *)CGDisplayCurrentMode( CGMainDisplayID() );
+o                        ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:33:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:455:27: note: 'CGDisplayCurrentMode' declared here
+oCG_EXTERN CFDictionaryRef CGDisplayCurrentMode(CGDirectDisplayID display)
+o                          ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m177"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o glfw/lib/cocoa/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler13b7d6e1835cb841^34bea7e2835cb841^-3839"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:101:9: warning: 'SetFrontProcess' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]        SetFrontProcess( &psn );        ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:33:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:43:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/HIServices.h:35:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Processes.h:603:1: note: 'SetFrontProcess' declared hereSetFrontProcess(const ProcessSerialNumber * PSN)              AVAILABLE_MAC_OS_X_VERSION_10_0_AND_LATER_BUT_DEPRECATED_IN_MAC_OS_X_VERSION_10_9;^/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:252:18: warning: 'CGDisplayCurrentMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]        (NSDictionary *)CGDisplayCurrentMode( CGMainDisplayID() );                        ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m:33:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:455:27: note: 'CGDisplayCurrentMode' declared hereCG_EXTERN CFDictionaryRef CGDisplayCurrentMode(CGDirectDisplayID display)                          ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@62"'SetFrontProcess' is deprecated: first deprecated in OS X 10.9-408716258#18446744073709551615#0#1(2@31"'SetFrontProcess' declared here-408716258#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@213"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Processes.h0000000000000000^602#0#602#0#22584#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m0000000000000000^100#8#100#8#3444#0#12"Deprecations--2@67"'CGDisplayCurrentMode' is deprecated: first deprecated in OS X 10.6-408716258#18446744073709551615#0#1(2@36"'CGDisplayCurrentMode' declared here-408716258#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@180"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h0000000000000000^454#26#454#26#18720#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m0000000000000000^251#17#251#17#8915#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@79"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m0000000000000000^2379"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o glfw/lib/cocoa/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o36"02A81530-7754-42EC-8915-609232529A4D-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.601767
+e408716259.529498
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m185"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o glfw/lib/cocoa/cocoa_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf7229ae2835cb841^828d87e3835cb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m0000000000000000^2403"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o glfw/lib/cocoa/cocoa_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_joystick.o36"5F4867B1-72F1-4665-BF67-2748C0B3884D-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.606816
+e408716258.696138
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c171"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o glfw/lib/cocoa/cocoa_thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerec6d9be2835cb841^7e36b2e2835cb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c0000000000000000^2178"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o glfw/lib/cocoa/cocoa_thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_thread.o36"1BEB7CEF-D7FB-441A-AED0-90732494352D-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.637869
+e408716259.546618
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m177"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o glfw/lib/cocoa/cocoa_time.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9961a3e2835cb841^71e68be3835cb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m0000000000000000^2379"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o glfw/lib/cocoa/cocoa_time.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_time.o36"243D7FED-4398-4C44-A4DC-9DA8EF18640E-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.656742
+e408716259.583525
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:474:13: warning: implicit declaration of function 'CGDisplayBestModeForParametersAndRefreshRateWithProperty' is invalid in C99 [-Wimplicit-function-declaration]
+o            CGDisplayBestModeForParametersAndRefreshRateWithProperty(
+o            ^
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:516:9: warning: 'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o        CGDisplaySwitchToMode( CGMainDisplayID(), fullscreenMode );
+o        ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:460:19: note: 'CGDisplaySwitchToMode' declared here
+oCG_EXTERN CGError CGDisplaySwitchToMode(CGDirectDisplayID display,
+o                  ^
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:623:9: warning: 'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o        CGDisplaySwitchToMode( CGMainDisplayID(),
+o        ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:460:19: note: 'CGDisplaySwitchToMode' declared here
+oCG_EXTERN CGError CGDisplaySwitchToMode(CGDirectDisplayID display,
+o                  ^
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:876:5: warning: 'CGSetLocalEventsSuppressionInterval' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o    CGSetLocalEventsSuppressionInterval( 0.0 );
+o    ^
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:44:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGEvent.h:8:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGEventTypes.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGRemoteOperation.h:374:19: note: 'CGSetLocalEventsSuppressionInterval' declared here
+oCG_EXTERN CGError CGSetLocalEventsSuppressionInterval(CFTimeInterval seconds)
+o                  ^
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m181"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o glfw/lib/cocoa/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere63ba8e2835cb841^5f6195e3835cb841^-6299"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:474:13: warning: implicit declaration of function 'CGDisplayBestModeForParametersAndRefreshRateWithProperty' is invalid in C99 [-Wimplicit-function-declaration]            CGDisplayBestModeForParametersAndRefreshRateWithProperty(            ^/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:516:9: warning: 'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]        CGDisplaySwitchToMode( CGMainDisplayID(), fullscreenMode );        ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:460:19: note: 'CGDisplaySwitchToMode' declared hereCG_EXTERN CGError CGDisplaySwitchToMode(CGDirectDisplayID display,                  ^/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:623:9: warning: 'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]        CGDisplaySwitchToMode( CGMainDisplayID(),        ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:39:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:460:19: note: 'CGDisplaySwitchToMode' declared hereCG_EXTERN CGError CGDisplaySwitchToMode(CGDirectDisplayID display,                  ^/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:876:5: warning: 'CGSetLocalEventsSuppressionInterval' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]    CGSetLocalEventsSuppressionInterval( 0.0 );    ^In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m:30:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h:92:In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:141:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:35:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:44:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGEvent.h:8:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGEventTypes.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGRemoteOperation.h:374:19: note: 'CGSetLocalEventsSuppressionInterval' declared hereCG_EXTERN CGError CGSetLocalEventsSuppressionInterval(CFTimeInterval seconds)                  ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@109"Implicit declaration of function 'CGDisplayBestModeForParametersAndRefreshRateWithProperty' is invalid in C99-408716259#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m0000000000000000^473#12#473#12#12076#0#14"Semantic Issue--2@68"'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6-408716259#18446744073709551615#0#1(2@37"'CGDisplaySwitchToMode' declared here-408716259#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@180"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h0000000000000000^459#18#459#18#18914#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m0000000000000000^515#8#515#8#13465#0#12"Deprecations--2@68"'CGDisplaySwitchToMode' is deprecated: first deprecated in OS X 10.6-408716259#18446744073709551615#0#1(2@37"'CGDisplaySwitchToMode' declared here-408716259#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@180"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h0000000000000000^459#18#459#18#18914#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m0000000000000000^622#8#622#8#16477#0#12"Deprecations--2@82"'CGSetLocalEventsSuppressionInterval' is deprecated: first deprecated in OS X 10.6-408716259#18446744073709551615#0#1(2@51"'CGSetLocalEventsSuppressionInterval' declared here-408716259#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@182"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGRemoteOperation.h0000000000000000^373#18#373#18#15240#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m0000000000000000^875#4#875#4#25192#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@81"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m0000000000000000^2391"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o glfw/lib/cocoa/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o36"24EEE178-F47E-4293-AD6F-CD797B26399F-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.697105
+e408716258.766682
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c153"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o glfw/lib/enable.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler378cb2e2835cb841^aa45c4e2835cb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c0000000000000000^2130"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o glfw/lib/enable.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/enable.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/enable.o36"6D1D1EF3-BFC6-4C29-BA7A-E23178222B12-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.766932
+e408716258.836358
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c161"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o glfw/lib/fullscreen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler7f85c4e2835cb841^8eebd7e2835cb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c0000000000000000^2154"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o glfw/lib/fullscreen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/fullscreen.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/fullscreen.o36"42655F8A-47DF-4E2C-8FB4-DFE57D2C42A6-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.836573
+e408716258.909938
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c151"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o glfw/lib/glext.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerad4ed6e2835cb841^35d4e8e2835cb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c0000000000000000^2124"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o glfw/lib/glext.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/glext.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glext.o36"C77242DB-617F-44B1-81EB-A94E8E99DC6C-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.910175
+e408716258.991098
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c151"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o glfw/lib/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler3b18e9e2835cb841^68cbfde2835cb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c0000000000000000^2124"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o glfw/lib/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/image.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/image.o36"A11D4AAE-E07D-4913-B3CB-DE444BC41524-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716258.991399
+e408716259.057444
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c149"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o glfw/lib/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler60e4fde2835cb841^dcbb0ee3835cb841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c0000000000000000^2118"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o glfw/lib/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/init.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/init.o36"EE33A316-920E-47E5-969D-3B4A5E9DE62B-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.057710
+e408716259.126319
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c151"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o glfw/lib/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilercedd0ee3835cb841^325920e3835cb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c0000000000000000^2124"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o glfw/lib/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/input.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/input.o36"5EF010AF-3738-45D2-86FE-B60D24FCB2A2-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.126758
+e408716259.190937
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c157"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o glfw/lib/joystick.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler7a8a20e3835cb841^64c930e3835cb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c0000000000000000^2142"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o glfw/lib/joystick.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/joystick.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/joystick.o36"1ED19B96-D524-4883-887A-7F268DF00840-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.191277
+e408716259.256692
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c153"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o glfw/lib/stream.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerbb0e31e3835cb841^6ec241e3835cb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c0000000000000000^2130"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o glfw/lib/stream.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/stream.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/stream.o36"6A2A6271-EFD6-4949-A92F-5846035D2427-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.257035
+e408716259.329166
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c147"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o glfw/lib/tga.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera4e441e3835cb841^d65254e3835cb841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c0000000000000000^2112"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o glfw/lib/tga.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/tga.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/tga.o36"CBFDB607-EA5D-4859-92A2-183FE4BADF5D-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.329569
+e408716259.398317
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c153"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o glfw/lib/thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerc57554e3835cb841^66fa65e3835cb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c0000000000000000^2130"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o glfw/lib/thread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/thread.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/thread.o36"B9A64F39-297A-4D19-B92E-3DF0AAAF914B-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.398960
+e408716259.460626
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c149"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o glfw/lib/time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler323866e3835cb841^9d2f76e3835cb841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c0000000000000000^2118"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o glfw/lib/time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/time.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/time.o36"B9400035-7017-4EC2-B547-0EC6E9C7AFDE-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CCompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.460845
+e408716259.551216
+r1
+xCompileC
+xglfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/internal.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa/platform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c153"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o glfw/lib/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler4d0f76e3835cb841^d21c8de3835cb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c0000000000000000^2130"CompileC glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o glfw/lib/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/cocoa -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/lib/window.c -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/window.o36"A741CF28-FE0F-4AE0-92EB-E87C592DE568-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+
+CLibtool /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a normal x86_64
+s408716259.584752
+e408716259.593231
+r1
+xLibtool
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Libtool glfw/Debug/libglfw.a normal x86_6442"Libtool glfw/Debug/libglfw.a normal x86_6448c395e3835cb841^e8de97e3835cb841^---0#0#1#--630"Libtool glfw/Debug/libglfw.a normal x86_64    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -filelist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Project.build/Debug/glfw.build/Objects-normal/x86_64/glfw.LinkFileList -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a36"3B502EF7-43E0-42F3-9681-58E859E31D84-
+b5680A856-3B8F-4959-94AE-80BD2208C034
+

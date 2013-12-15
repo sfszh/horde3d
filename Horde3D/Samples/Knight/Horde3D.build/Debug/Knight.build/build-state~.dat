@@ -1,0 +1,237 @@
+TKnight
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist
+cCompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight normal x86_64
+cTouch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005283750400000000000000AA
+t1384346884
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526B6C1B000000000000044C
+t1382771739
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526B6C1B00000000000001DB
+t1382771739
+s475
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app
+t1387021781
+s102
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist
+t1387021781
+s1150
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight
+t1387021782
+s119236
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/PkgInfo
+t1387021781
+s8
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist
+c0000000052AC000300000000000003E3
+t1387003907
+s995
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/Knight.LinkFileList
+c0000000052AC45D500000000000000E3
+t1387021781
+s227
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o
+t1387021781
+s44920
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o
+t1387021782
+s33612
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp
+c000000004DE0A07C00000000000023F8
+t1306566780
+s9208
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp
+c000000004DE0A07C00000000000016A4
+t1306566780
+s5796
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb5703d557d5cb841^f2ed3d557d5cb841^---0#1#1#--18"Check dependencies36"BA7F5083-1BB1-4C2C-AA3E-0D5E02699EDB-
+
+CCompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408714581.245719
+e408714581.945928
+r1
+xCompileC
+xHorde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:243:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['W'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:250:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['S'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:257:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['A'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:263:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['D'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:269:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['1'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:275:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['2'] )
+o                         ^~~~
+oIn file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:17:
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h:57:21: warning: private field '_pipeRes' is not used [-Wunused-private-field]
+o        H3DRes             _pipeRes, _logoMatRes, _hdrPipeRes, _forwardPipeRes;
+o                           ^
+o7 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp185"CompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o Horde3D/Samples/Knight/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler40fa3e557d5cb841^3528f2557d5cb841^-1517"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:243:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['W'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:250:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['S'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:257:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['A'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:263:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['D'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:269:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['1'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:275:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['2'] )                         ^~~~In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:17:/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h:57:21: warning: private field '_pipeRes' is not used [-Wunused-private-field]        H3DRes             _pipeRes, _logoMatRes, _hdrPipeRes, _forwardPipeRes;                           ^7 warnings generated.7(36%IDEClangDiagnosticActivityLogMessage2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^242#11#242#11#7926#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^242#12#242#15#7927#0#-2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^249#11#249#11#8163#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^249#12#249#15#8164#0#-2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^256#11#256#11#8401#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^256#12#256#15#8402#0#-2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^262#11#262#11#8547#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^262#12#262#15#8548#0#-2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^268#11#268#11#8695#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^268#12#268#15#8696#0#-2@33"Array subscript is of type 'char'-408714581#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^274#11#274#11#8815#0#14"Semantic Issue1(3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^274#12#274#15#8816#0#-2@36"Private field '_pipeRes' is not used-408714581#18446744073709551615#0#1(2@85"In file included from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp:17:-408714581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^16#9#16#9#611#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@64"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h0000000000000000^56#20#56#20#1633#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@66"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp0000000000000000^2275"CompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o Horde3D/Samples/Knight/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o36"AE6A9571-4FD0-4003-BE08-E5FE3F1B3397-
+bC7217993-7824-413A-A20F-DC0A4274F813
+
+CCompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408714581.656385
+e408714582.144473
+r1
+xCompileC
+xHorde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/app.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp187"CompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o Horde3D/Samples/Knight/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2e20a8557d5cb841^1edd28567d5cb841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp0000000000000000^2281"CompileC Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o Horde3D/Samples/Knight/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/main.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o36"1C414A69-3D48-4A56-BE2E-A61B94B5C617-
+bC7217993-7824-413A-A20F-DC0A4274F813
+
+CLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight normal x86_64
+s408714582.145137
+e408714582.444280
+r1
+xLd
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight
+xnormal
+xx86_64
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/Knight.LinkFileList
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/app.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/main.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AGL.framework/AGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight79"Ld Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight normal x86_64cd3c25567d5cb841^d7bd71567d5cb841^---0#0#1#--1469"Ld Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight normal x86_64    cd /Users/sfszh/dev/Horde3D_SDK    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug -filelist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/Knight.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D -framework OpenGL -framework CoreFoundation -Xlinker -dependency_info -Xlinker /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/Horde3D.build/Debug/Knight.build/Objects-normal/x86_64/Knight_dependency_info.dat -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/MacOS/Knight36"9D8A2879-848F-408F-A1CD-8F7DA0581C44-
+bC7217993-7824-413A-A20F-DC0A4274F813
+
+CProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist
+s408714581.243126
+e408714581.244412
+r1
+xProcessInfoPlistFile
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist137"ProcessInfoPlistFile Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist30483e557d5cb841^3e923e557d5cb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist0000000000000000^518"ProcessInfoPlistFile Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist    cd /Users/sfszh/dev/Horde3D_SDK    builtin-infoPlistUtility /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist -genpkginfo /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app/Contents/Info.plist36"E73E22F4-F61D-417A-BD18-93192F315112-
+bC7217993-7824-413A-A20F-DC0A4274F813
+
+CTouch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app
+s408714582.445077
+e408714582.448455
+r1
+xTouch
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app46"Touch Horde3D/Binaries/Darwin/Debug/Knight.app48f971567d5cb841^9ad272567d5cb841^---0#0#1#--175"Touch Horde3D/Binaries/Darwin/Debug/Knight.app    cd /Users/sfszh/dev/Horde3D_SDK    /usr/bin/touch -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/Knight.app36"E87AB9E6-E669-4E30-9424-4CE162717B11-
+bC7217993-7824-413A-A20F-DC0A4274F813
+

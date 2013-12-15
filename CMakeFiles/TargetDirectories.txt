@@ -1,0 +1,8 @@
+/Users/sfszh/dev/Horde3D_SDK/CMakeFiles/ALL_BUILD.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/CMakeFiles/ColladaConv.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/CMakeFiles/Horde3D.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir
+/Users/sfszh/dev/Horde3D_SDK/CMakeFiles/ZERO_CHECK.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeFiles/glfw.dir

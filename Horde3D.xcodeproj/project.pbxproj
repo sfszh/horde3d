@@ -1,0 +1,2563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		084088AF59384B4EB81A0977 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 481FF7B64A5D4E919E7AAD86 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				26F77DE7A7094CA3AC0EDDF0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AC536AC7CB6843E7A63DFB4A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 33E356C8F2CF4DB28C7C44D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2883E198BD1D4CE7AA8EB6EE /* CMake Rules */,
+			);
+			dependencies = (
+				7FED7888FE404AEE91C69A9B /* PBXTargetDependency */,
+				A2A75B95F68B46C3AD62A0E8 /* PBXTargetDependency */,
+				2FB90C5F91004EFDB1219A0E /* PBXTargetDependency */,
+				142A530837804D4CA8476EE8 /* PBXTargetDependency */,
+				B7A32BC7B13642B598AA7B96 /* PBXTargetDependency */,
+				BAA729A30E494D2EB059E5A1 /* PBXTargetDependency */,
+				386993BE415049CA8EBDED91 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00DEC91FAE94421E94143460 /* glext.c in Sources */ = {isa = PBXBuildFile; fileRef = A483D72C945949A896D38478 /* glext.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0A6B3F95734C428DA965329C /* crowd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94829297F3DB42F5BF5C2BB1 /* crowd.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E43FB2EF725498AAA8D9543 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D9D9D9D64439F8AE1D448 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0EA9C5A072414C37A7BDBF47 /* egTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 103448526E494C288FAD468B /* egTexture.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		1214C88AE8674B07968F91DC /* cocoa_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 795BFECCD7A04013A7EA04DB /* cocoa_thread.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1275A02D08164CA2A32B64DA /* egModules.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F044C8DD36450C92EC3E0A /* egModules.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		13B2FAE6D8FE4003BDF8B027 /* egPrimitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE17BA59EE6141CF818C4356 /* egPrimitives.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		14DD19E8DF624C729C926DE3 /* egAnimatables.h in Headers */ = {isa = PBXBuildFile; fileRef = 5195A8F256B648C28F0E0DAC /* egAnimatables.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		154B5C3316B4434B9F995DD1 /* egModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631748FD6F834F70BBBDCC24 /* egModel.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15554EC28C134A70B1C8655F /* converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142A7411C5024777B62004C7 /* converter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		185C946DDB0748F2BA3EF8EB /* egSceneGraphRes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7DC48E5506A4E3BBA798C4E /* egSceneGraphRes.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1949694D0E3849349F9BA19E /* egPipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4399808F24F44C2A9A5968C /* egPipeline.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1AEBE3099CC948D08976F238 /* egShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8D5F8BD914C4087BE9182DF /* egShader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		22FF4F697A39419C85E604F5 /* cocoa_glext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4FB4488E484A9E9824EA9D /* cocoa_glext.m */; settings = {COMPILER_FLAGS = ""; }; };
+		233439A118124A95A7211DB8 /* egExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE99B792E14E1F8E950953 /* egExtensions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		257E99A1D5D7418693E3626A /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B65D7E8465D4D5995390AE5 /* utils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		284960FD4738428BBDD67D4A /* egResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B49CC99464449B5A9AB38F2 /* egResource.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		2B1F05592B1A4F2383EE19E8 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA6851D75C42B5933826BA /* cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		2BA34BC95C834D99B8322B11 /* tga.c in Sources */ = {isa = PBXBuildFile; fileRef = 241ADC2E5AD545F9849F4434 /* tga.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2F2E82689C3F44D5A388DC8F /* egScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9BE293009A46B2BDBEEAD4 /* egScene.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		30AF9D1EF3E74238AFF1B9F5 /* cocoa_enable.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E3B87DBCC4EE882E0A82A /* cocoa_enable.m */; settings = {COMPILER_FLAGS = ""; }; };
+		31608E9FD7A94D578A3D4114 /* egPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F11A8F1A8E040D7A650A8E8 /* egPrimitives.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		3332FFC4B41B47F6B8615554 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = CC43A7AC5FFC49AFA740C2FC /* time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		369DD5BCD2B3443FBA61F0D1 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = B931547D90A14C7A95F75A5F /* input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		378C1B93588C40F7975B1A04 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA9550BE5C47A9849FE092 /* init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		40121404E4A642E9A250FA2F /* joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 71E2FDDF72AE445CAF37F682 /* joystick.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4DB57BBE5EB149ADA8CD7B43 /* egScene.h in Headers */ = {isa = PBXBuildFile; fileRef = D374EA7AD3AF4B839BE55937 /* egScene.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		5199881516A249C3B5406D8A /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = 2076BC23780348DCB88A63BA /* cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		55C961CB520A4C11A58B5F07 /* utOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = C4348FED9CDC4E5CA3F1D66C /* utOpenGL.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		5920946022B64C48A1327455 /* egExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 13758C8788564E2E97184CDA /* egExtensions.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		5A01DB8B99DA4F88B8191F41 /* egPrerequisites.h in Headers */ = {isa = PBXBuildFile; fileRef = 4313024A5BA74783AE2401B8 /* egPrerequisites.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		633085A7026445EF8075A5D7 /* egSceneGraphRes.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A4661AEDE445F789180321 /* egSceneGraphRes.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		6377142A077245B298595816 /* cocoa_time.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1C0C08CD824783BA5DACB0 /* cocoa_time.m */; settings = {COMPILER_FLAGS = ""; }; };
+		63F95814071D4CB3A93A62E7 /* egLight.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE3676E12144E8B9956256C /* egLight.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		64973AD7095141708A6E5ED8 /* egRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943B5BA9F88E4445901F976E /* egRenderer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6D732F6184A944F1AF629C93 /* egResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888377FB8BE8433F9186A99D /* egResource.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6D8A99DF355C4AE08B103ADF /* egParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FE3FE21E294A569163FA45 /* egParticle.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		70439B2946FA436B8B9DA309 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBFBC8ACA9B4106948EB680 /* config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		76D59A7A2D5B45B38A089362 /* egCom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC1A2DFFC23451192FECD14 /* egCom.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		773A1228F23C43C5B698F7ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B83C4FB7F4EE3BA0ABFD6 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		781192BEF1204AEEBD40225D /* egRendererBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE960C6081834136B6051C20 /* egRendererBase.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7C695F557DC742B99B0FA506 /* Horde3D.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5C199401864026A19C4921 /* Horde3D.h */; settings = {ATTRIBUTES = (Public, ); COMPILER_FLAGS = ""; }; };
+		7EBA3DB28267442E983197E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87BA4F9EA8F94D7685B2A6A8 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		88354A8C713E4B27BF9A91D2 /* egModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9A24892759408684CC6273 /* egModel.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		897D3025BDDD405D803E72C0 /* egAnimatables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65F7DB60B6364A609BCE632D /* egAnimatables.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A4F9033336F45B9B47C09EB /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B21BD4E9E84B67BB6CA50A /* app.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E16A24FFC3E41CFBEF4BB89 /* egTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B15F6253A3AB4E4BA6CBB5FC /* egTexture.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9076F73262414492A243300E /* cocoa_fullscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05D2FC11942FD9F759221 /* cocoa_fullscreen.m */; settings = {COMPILER_FLAGS = ""; }; };
+		948081AE31E3422DA0953AB2 /* egModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F103D27421C44702A1E47684 /* egModules.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		96F17182FF354748AAA18034 /* egMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 7388A4AC835E41A285F38916 /* egMaterial.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		989B26A1C6AE4F49A02CED04 /* Horde3DUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 374538006A2D4BFF91C37BD4 /* Horde3DUtils.h */; settings = {ATTRIBUTES = (Public, ); COMPILER_FLAGS = ""; }; };
+		9BD5369E554C455D87DB52E3 /* egShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 541DA9495EE94820B3AEB5EB /* egShader.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		9F6818C755124028A98C6536 /* utImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C451CDC710D74E389469AD2E /* utImage.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A042471E5C7C4AFFABBD87C7 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = DC94781110A8406E969D8A1C /* window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A336FF566ABE4E44A7167192 /* egAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DC222879DB42289D4AC164 /* egAnimation.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A34103C6DE2D4CC891E6DBB1 /* egLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B242476D51E4EA395A8B96D /* egLight.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A3EF26AAD58543BEBD62ED43 /* optimizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BEFE19D6184E1DA9629CCD /* optimizer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A8EE60B0D14846B39A509477 /* egMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A463972685ED47338A10FB4D /* egMaterial.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA5887ABF24E4F60BD2A3631 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284526EE1AB447DDBAAA1005 /* app.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B1F30BC486B14985AC9AE9B4 /* daeMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A46EEFE9E014F03BFEAF626 /* daeMain.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B75CE9E5B71D48E1BE663272 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = FADE493C51C044808D997756 /* stream.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BA2A22F6E8DD4EF08D0F36D0 /* egRendererBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 051CEF3399FF46AFB111D9B4 /* egRendererBase.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		BDDFCC287752493885B44739 /* fullscreen.c in Sources */ = {isa = PBXBuildFile; fileRef = AD79E6B4428549B3991CDF62 /* fullscreen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C07965E3F1254DBDA998F11D /* egRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E68BB0B9991E464E9AD28F26 /* egRenderer.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		C16D8AD0D348487883E018E6 /* egGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F384F27CD5B4651A88F7745 /* egGeometry.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		C8DDD05ECA48437882AEB3EB /* utTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B011017F51AA40C3AFC2514A /* utTimer.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		C9C46E540F284120B1E46FD7 /* enable.c in Sources */ = {isa = PBXBuildFile; fileRef = 6156A50293EB4CB89E7F216E /* enable.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CB3B133A34A84C848FC65F9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F456F95629B849B2A195158C /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CC8D2DE0BA264A40B7D1D1C1 /* egCom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 616D9FDDB1C44782883CE7BD /* egCom.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D07E7AC65EFB49DEBB90FFB2 /* utOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2E45E88C1A740878ECF3D69 /* utOpenGL.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D08BD803437546299BDD6965 /* egParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC58DA8DF8204A9B8FA13A16 /* egParticle.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DE89A05F58D24E3193790CAB /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = BD642A0314BD4A0391C20304 /* thread.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E23D5D04391D4B7F98A4D443 /* egAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4505B5E2E94E37BBCDF8FF /* egAnimation.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		E60E182A8DEB4E09B04688C1 /* utImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 180040D24D5048FC9C73093F /* utImage.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		E6EB6BAA4BB94C22B0AB161F /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 76E04D93201940F991A67FD3 /* image.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E7310E3F96DF46A995E8EF04 /* egCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA498BB0FEC45E98F54133F /* egCamera.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		E8DA2F4F48FC49A885E44661 /* egPipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = D030FA07AC664652A7591FCA /* egPipeline.h */; settings = {ATTRIBUTES = (Private, ); COMPILER_FLAGS = ""; }; };
+		EC37C07F934348778F1DAB4C /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAE922F19B48A791AD1807 /* cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		EDD76676EFAA45E1B46C1699 /* egMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 412495EC60774F3984FE19E0 /* egMain.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FE21C6DEF7E448B39BBE62D8 /* egCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C0238025E046DC999B4B8F /* egCamera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FF581AF6997946A2AE595CFF /* egGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A340931759469694DD68F2 /* egGeometry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03458762EECB4D8FB87AC30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		100FB10FD8B84A998A25EBC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFCEC9AC20B47639B9DEC1E;
+			remoteInfo = Horde3D;
+		};
+		1996C913139646D599098EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD6381082C04D38B86E7C0A;
+			remoteInfo = Chicago;
+		};
+		1D3F595471BF4DCFA05D51BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7068C19C3778421089425BAC;
+			remoteInfo = Horde3DUtils;
+		};
+		2E3C33F5209C4934AD60E507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		2E461B8DCB0945EE97228FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFCEC9AC20B47639B9DEC1E;
+			remoteInfo = Horde3D;
+		};
+		55408D75C512462997AD006A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		6C5C1EF2DB3F4CD7A72997F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		8894DCA78C514DD5B33B2057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0C26385CD3471DB9B2F8AC;
+			remoteInfo = glfw;
+		};
+		9079A23DB2F846BFA504C6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB905AEBA5F246E8A9794957;
+			remoteInfo = Knight;
+		};
+		91B64BEB5246472A9FF2F7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847C3F417EB642A596A89B62;
+			remoteInfo = ColladaConv;
+		};
+		A291CE0959314ADA8B0DDC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7068C19C3778421089425BAC;
+			remoteInfo = Horde3DUtils;
+		};
+		B3D01570582B49CBBD12A331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		BCD9CDBAF2F44918AE5DF067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFCEC9AC20B47639B9DEC1E;
+			remoteInfo = Horde3D;
+		};
+		C989D19998964199AB9F9133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0C26385CD3471DB9B2F8AC;
+			remoteInfo = glfw;
+		};
+		CA67501CFE194E82836B46EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		DCFA446573604C31B27DD4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFCEC9AC20B47639B9DEC1E;
+			remoteInfo = Horde3D;
+		};
+		E39AE1A9773247748D8D051E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084088AF59384B4EB81A0977;
+			remoteInfo = ZERO_CHECK;
+		};
+		E53F002327994454BCDC496A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0C26385CD3471DB9B2F8AC;
+			remoteInfo = glfw;
+		};
+		FD3682F200F74C3582EC7A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F28B825CA442D4958F2337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7068C19C3778421089425BAC;
+			remoteInfo = Horde3DUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C0238025E046DC999B4B8F /* egCamera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egCamera.cpp; path = Horde3D/Source/Horde3DEngine/egCamera.cpp; sourceTree = SOURCE_ROOT; };
+		03DC222879DB42289D4AC164 /* egAnimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egAnimation.cpp; path = Horde3D/Source/Horde3DEngine/egAnimation.cpp; sourceTree = SOURCE_ROOT; };
+		051CEF3399FF46AFB111D9B4 /* egRendererBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egRendererBase.h; path = Horde3D/Source/Horde3DEngine/egRendererBase.h; sourceTree = SOURCE_ROOT; };
+		08998B26FCD246C4888F9A9A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		09EAE922F19B48A791AD1807 /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		0F4FB4488E484A9E9824EA9D /* cocoa_glext.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_glext.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_glext.m; sourceTree = SOURCE_ROOT; };
+		103448526E494C288FAD468B /* egTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egTexture.h; path = Horde3D/Source/Horde3DEngine/egTexture.h; sourceTree = SOURCE_ROOT; };
+		136A6DF0578A4B128E1AE48F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Samples/Chicago/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13758C8788564E2E97184CDA /* egExtensions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egExtensions.h; path = Horde3D/Source/Horde3DEngine/egExtensions.h; sourceTree = SOURCE_ROOT; };
+		142A7411C5024777B62004C7 /* converter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = converter.cpp; path = Horde3D/Source/ColladaConverter/converter.cpp; sourceTree = SOURCE_ROOT; };
+		159F00D1B4CC4111AFBB4DD2 /* Chicago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Chicago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BEFE19D6184E1DA9629CCD /* optimizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = optimizer.cpp; path = Horde3D/Source/ColladaConverter/optimizer.cpp; sourceTree = SOURCE_ROOT; };
+		180040D24D5048FC9C73093F /* utImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utImage.h; path = Horde3D/Source/Horde3DEngine/utImage.h; sourceTree = SOURCE_ROOT; };
+		1E8B83C4FB7F4EE3BA0ABFD6 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = Horde3D/Samples/Chicago/main.cpp; sourceTree = SOURCE_ROOT; };
+		2076BC23780348DCB88A63BA /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		241ADC2E5AD545F9849F4434 /* tga.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tga.c; path = Horde3D/Samples/glfw/lib/tga.c; sourceTree = SOURCE_ROOT; };
+		284526EE1AB447DDBAAA1005 /* app.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = app.cpp; path = Horde3D/Samples/Chicago/app.cpp; sourceTree = SOURCE_ROOT; };
+		2871CAC4565F4DBFB8A582D1 /* daeLibMaterials.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibMaterials.h; path = Horde3D/Source/ColladaConverter/daeLibMaterials.h; sourceTree = SOURCE_ROOT; };
+		2C8BCA27893B403BBD1B521B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Samples/Knight/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		313AC385F7C44D948ECED29F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Source/Horde3DEngine/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3544AACE39C34D0D91222478 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		374538006A2D4BFF91C37BD4 /* Horde3DUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Horde3DUtils.h; path = "Horde3D/Bindings/C++/Horde3DUtils.h"; sourceTree = SOURCE_ROOT; };
+		3943488C7E864E76932DCB0B /* libglfw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9D9D9D9D64439F8AE1D448 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = Horde3D/Source/Horde3DUtils/main.cpp; sourceTree = SOURCE_ROOT; };
+		3CEA9550BE5C47A9849FE092 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = Horde3D/Samples/glfw/lib/init.c; sourceTree = SOURCE_ROOT; };
+		3DE3676E12144E8B9956256C /* egLight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egLight.h; path = Horde3D/Source/Horde3DEngine/egLight.h; sourceTree = SOURCE_ROOT; };
+		3E3FE07C77D44C088F95050D /* daeMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeMain.h; path = Horde3D/Source/ColladaConverter/daeMain.h; sourceTree = SOURCE_ROOT; };
+		412495EC60774F3984FE19E0 /* egMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egMain.cpp; path = Horde3D/Source/Horde3DEngine/egMain.cpp; sourceTree = SOURCE_ROOT; };
+		4313024A5BA74783AE2401B8 /* egPrerequisites.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egPrerequisites.h; path = Horde3D/Source/Horde3DEngine/egPrerequisites.h; sourceTree = SOURCE_ROOT; };
+		4706F8A6ACBA4FB396124C0B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Samples/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5195A8F256B648C28F0E0DAC /* egAnimatables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egAnimatables.h; path = Horde3D/Source/Horde3DEngine/egAnimatables.h; sourceTree = SOURCE_ROOT; };
+		541DA9495EE94820B3AEB5EB /* egShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egShader.h; path = Horde3D/Source/Horde3DEngine/egShader.h; sourceTree = SOURCE_ROOT; };
+		5D27CF0330CF4B458CC5B4B5 /* Horde3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Horde3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D32BD14D48B450A9425CDD8 /* optimizer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optimizer.h; path = Horde3D/Source/ColladaConverter/optimizer.h; sourceTree = SOURCE_ROOT; };
+		5E2C7C64017945978BC52A47 /* daeLibEffects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibEffects.h; path = Horde3D/Source/ColladaConverter/daeLibEffects.h; sourceTree = SOURCE_ROOT; };
+		6156A50293EB4CB89E7F216E /* enable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enable.c; path = Horde3D/Samples/glfw/lib/enable.c; sourceTree = SOURCE_ROOT; };
+		616D9FDDB1C44782883CE7BD /* egCom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egCom.cpp; path = Horde3D/Source/Horde3DEngine/egCom.cpp; sourceTree = SOURCE_ROOT; };
+		631748FD6F834F70BBBDCC24 /* egModel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egModel.cpp; path = Horde3D/Source/Horde3DEngine/egModel.cpp; sourceTree = SOURCE_ROOT; };
+		63605CAF9C7A427D90ABDC18 /* Knight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Knight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F7DB60B6364A609BCE632D /* egAnimatables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egAnimatables.cpp; path = Horde3D/Source/Horde3DEngine/egAnimatables.cpp; sourceTree = SOURCE_ROOT; };
+		6B49CC99464449B5A9AB38F2 /* egResource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egResource.h; path = Horde3D/Source/Horde3DEngine/egResource.h; sourceTree = SOURCE_ROOT; };
+		6BCE99B792E14E1F8E950953 /* egExtensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egExtensions.cpp; path = Horde3D/Source/Horde3DEngine/egExtensions.cpp; sourceTree = SOURCE_ROOT; };
+		6FC1A2DFFC23451192FECD14 /* egCom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egCom.h; path = Horde3D/Source/Horde3DEngine/egCom.h; sourceTree = SOURCE_ROOT; };
+		71E2FDDF72AE445CAF37F682 /* joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joystick.c; path = Horde3D/Samples/glfw/lib/joystick.c; sourceTree = SOURCE_ROOT; };
+		71F044C8DD36450C92EC3E0A /* egModules.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egModules.h; path = Horde3D/Source/Horde3DEngine/egModules.h; sourceTree = SOURCE_ROOT; };
+		71FA114E36D140CCB17B20C3 /* daeLibAnimations.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibAnimations.h; path = Horde3D/Source/ColladaConverter/daeLibAnimations.h; sourceTree = SOURCE_ROOT; };
+		7388A4AC835E41A285F38916 /* egMaterial.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egMaterial.h; path = Horde3D/Source/Horde3DEngine/egMaterial.h; sourceTree = SOURCE_ROOT; };
+		76E04D93201940F991A67FD3 /* image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image.c; path = Horde3D/Samples/glfw/lib/image.c; sourceTree = SOURCE_ROOT; };
+		77AA73889BDE4AD6BE55E52E /* utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = Horde3D/Source/ColladaConverter/utils.h; sourceTree = SOURCE_ROOT; };
+		795BFECCD7A04013A7EA04DB /* cocoa_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_thread.c; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_thread.c; sourceTree = SOURCE_ROOT; };
+		79A4661AEDE445F789180321 /* egSceneGraphRes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egSceneGraphRes.h; path = Horde3D/Source/Horde3DEngine/egSceneGraphRes.h; sourceTree = SOURCE_ROOT; };
+		7A9B06D558A8472480E50979 /* daeLibVisualScenes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibVisualScenes.h; path = Horde3D/Source/ColladaConverter/daeLibVisualScenes.h; sourceTree = SOURCE_ROOT; };
+		7B65D7E8465D4D5995390AE5 /* utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = Horde3D/Source/ColladaConverter/utils.cpp; sourceTree = SOURCE_ROOT; };
+		7CA498BB0FEC45E98F54133F /* egCamera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egCamera.h; path = Horde3D/Source/Horde3DEngine/egCamera.h; sourceTree = SOURCE_ROOT; };
+		7D6007B115D9429C80B874F5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Source/ColladaConverter/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F5470746A524906B80FEF69 /* daeLibImages.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibImages.h; path = Horde3D/Source/ColladaConverter/daeLibImages.h; sourceTree = SOURCE_ROOT; };
+		845890CC095A4C83BA19453B /* daeLibControllers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibControllers.h; path = Horde3D/Source/ColladaConverter/daeLibControllers.h; sourceTree = SOURCE_ROOT; };
+		87243E543FA74B1F8B6450B8 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		87BA4F9EA8F94D7685B2A6A8 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = Horde3D/Source/ColladaConverter/main.cpp; sourceTree = SOURCE_ROOT; };
+		888377FB8BE8433F9186A99D /* egResource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egResource.cpp; path = Horde3D/Source/Horde3DEngine/egResource.cpp; sourceTree = SOURCE_ROOT; };
+		8F384F27CD5B4651A88F7745 /* egGeometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egGeometry.h; path = Horde3D/Source/Horde3DEngine/egGeometry.h; sourceTree = SOURCE_ROOT; };
+		93A340931759469694DD68F2 /* egGeometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egGeometry.cpp; path = Horde3D/Source/Horde3DEngine/egGeometry.cpp; sourceTree = SOURCE_ROOT; };
+		943B5BA9F88E4445901F976E /* egRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egRenderer.cpp; path = Horde3D/Source/Horde3DEngine/egRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		94829297F3DB42F5BF5C2BB1 /* crowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = crowd.cpp; path = Horde3D/Samples/Chicago/crowd.cpp; sourceTree = SOURCE_ROOT; };
+		96BA6851D75C42B5933826BA /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		99D05D2FC11942FD9F759221 /* cocoa_fullscreen.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_fullscreen.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_fullscreen.m; sourceTree = SOURCE_ROOT; };
+		99FE3FE21E294A569163FA45 /* egParticle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egParticle.h; path = Horde3D/Source/Horde3DEngine/egParticle.h; sourceTree = SOURCE_ROOT; };
+		9A46EEFE9E014F03BFEAF626 /* daeMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = daeMain.cpp; path = Horde3D/Source/ColladaConverter/daeMain.cpp; sourceTree = SOURCE_ROOT; };
+		9B242476D51E4EA395A8B96D /* egLight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egLight.cpp; path = Horde3D/Source/Horde3DEngine/egLight.cpp; sourceTree = SOURCE_ROOT; };
+		9F11A8F1A8E040D7A650A8E8 /* egPrimitives.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egPrimitives.h; path = Horde3D/Source/Horde3DEngine/egPrimitives.h; sourceTree = SOURCE_ROOT; };
+		A3D5A7DF9681468DAFE798D5 /* app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = app.h; path = Horde3D/Samples/Knight/app.h; sourceTree = SOURCE_ROOT; };
+		A463972685ED47338A10FB4D /* egMaterial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egMaterial.cpp; path = Horde3D/Source/Horde3DEngine/egMaterial.cpp; sourceTree = SOURCE_ROOT; };
+		A483D72C945949A896D38478 /* glext.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glext.c; path = Horde3D/Samples/glfw/lib/glext.c; sourceTree = SOURCE_ROOT; };
+		AB5C199401864026A19C4921 /* Horde3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Horde3D.h; path = "Horde3D/Bindings/C++/Horde3D.h"; sourceTree = SOURCE_ROOT; };
+		AD79E6B4428549B3991CDF62 /* fullscreen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fullscreen.c; path = Horde3D/Samples/glfw/lib/fullscreen.c; sourceTree = SOURCE_ROOT; };
+		B011017F51AA40C3AFC2514A /* utTimer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utTimer.h; path = Horde3D/Source/Horde3DEngine/utTimer.h; sourceTree = SOURCE_ROOT; };
+		B15F6253A3AB4E4BA6CBB5FC /* egTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egTexture.cpp; path = Horde3D/Source/Horde3DEngine/egTexture.cpp; sourceTree = SOURCE_ROOT; };
+		B2E45E88C1A740878ECF3D69 /* utOpenGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utOpenGL.cpp; path = Horde3D/Source/Horde3DEngine/utOpenGL.cpp; sourceTree = SOURCE_ROOT; };
+		B7DC48E5506A4E3BBA798C4E /* egSceneGraphRes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egSceneGraphRes.cpp; path = Horde3D/Source/Horde3DEngine/egSceneGraphRes.cpp; sourceTree = SOURCE_ROOT; };
+		B931547D90A14C7A95F75A5F /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = Horde3D/Samples/glfw/lib/input.c; sourceTree = SOURCE_ROOT; };
+		BB5E3B87DBCC4EE882E0A82A /* cocoa_enable.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_enable.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_enable.m; sourceTree = SOURCE_ROOT; };
+		BBBFBC8ACA9B4106948EB680 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = Horde3D/Source/Horde3DEngine/config.h; sourceTree = SOURCE_ROOT; };
+		BD642A0314BD4A0391C20304 /* thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = thread.c; path = Horde3D/Samples/glfw/lib/thread.c; sourceTree = SOURCE_ROOT; };
+		BFA6510D24A54218A1390CB9 /* Horde3DUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Horde3DUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4348FED9CDC4E5CA3F1D66C /* utOpenGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utOpenGL.h; path = Horde3D/Source/Horde3DEngine/utOpenGL.h; sourceTree = SOURCE_ROOT; };
+		C451CDC710D74E389469AD2E /* utImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utImage.cpp; path = Horde3D/Source/Horde3DEngine/utImage.cpp; sourceTree = SOURCE_ROOT; };
+		C8B21BD4E9E84B67BB6CA50A /* app.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = app.cpp; path = Horde3D/Samples/Knight/app.cpp; sourceTree = SOURCE_ROOT; };
+		C8D5F8BD914C4087BE9182DF /* egShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egShader.cpp; path = Horde3D/Source/Horde3DEngine/egShader.cpp; sourceTree = SOURCE_ROOT; };
+		CC43A7AC5FFC49AFA740C2FC /* time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = Horde3D/Samples/glfw/lib/time.c; sourceTree = SOURCE_ROOT; };
+		CC58DA8DF8204A9B8FA13A16 /* egParticle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egParticle.cpp; path = Horde3D/Source/Horde3DEngine/egParticle.cpp; sourceTree = SOURCE_ROOT; };
+		D030FA07AC664652A7591FCA /* egPipeline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egPipeline.h; path = Horde3D/Source/Horde3DEngine/egPipeline.h; sourceTree = SOURCE_ROOT; };
+		D374EA7AD3AF4B839BE55937 /* egScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egScene.h; path = Horde3D/Source/Horde3DEngine/egScene.h; sourceTree = SOURCE_ROOT; };
+		D4399808F24F44C2A9A5968C /* egPipeline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egPipeline.cpp; path = Horde3D/Source/Horde3DEngine/egPipeline.cpp; sourceTree = SOURCE_ROOT; };
+		D6486526C93D40118632B008 /* daeLibGeometries.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeLibGeometries.h; path = Horde3D/Source/ColladaConverter/daeLibGeometries.h; sourceTree = SOURCE_ROOT; };
+		DB1C0C08CD824783BA5DACB0 /* cocoa_time.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_time.m; path = Horde3D/Samples/glfw/lib/cocoa/cocoa_time.m; sourceTree = SOURCE_ROOT; };
+		DC94781110A8406E969D8A1C /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = Horde3D/Samples/glfw/lib/window.c; sourceTree = SOURCE_ROOT; };
+		DE960C6081834136B6051C20 /* egRendererBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egRendererBase.cpp; path = Horde3D/Source/Horde3DEngine/egRendererBase.cpp; sourceTree = SOURCE_ROOT; };
+		E17A496A1C794520880FC5E5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = Horde3D/Source/Horde3DUtils/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4100EA853934A2EB62FBD9F /* daeCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daeCommon.h; path = Horde3D/Source/ColladaConverter/daeCommon.h; sourceTree = SOURCE_ROOT; };
+		E68BB0B9991E464E9AD28F26 /* egRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egRenderer.h; path = Horde3D/Source/Horde3DEngine/egRenderer.h; sourceTree = SOURCE_ROOT; };
+		EA9A24892759408684CC6273 /* egModel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egModel.h; path = Horde3D/Source/Horde3DEngine/egModel.h; sourceTree = SOURCE_ROOT; };
+		EE17BA59EE6141CF818C4356 /* egPrimitives.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egPrimitives.cpp; path = Horde3D/Source/Horde3DEngine/egPrimitives.cpp; sourceTree = SOURCE_ROOT; };
+		F103D27421C44702A1E47684 /* egModules.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egModules.cpp; path = Horde3D/Source/Horde3DEngine/egModules.cpp; sourceTree = SOURCE_ROOT; };
+		F3310E3AE4334AE2AC9B69D6 /* crowd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crowd.h; path = Horde3D/Samples/Chicago/crowd.h; sourceTree = SOURCE_ROOT; };
+		F456F95629B849B2A195158C /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = Horde3D/Samples/Knight/main.cpp; sourceTree = SOURCE_ROOT; };
+		F721CBBB63F3456C84B96454 /* converter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = converter.h; path = Horde3D/Source/ColladaConverter/converter.h; sourceTree = SOURCE_ROOT; };
+		F9AD35D13593475FAC926C1A /* ColladaConv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ColladaConv; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4505B5E2E94E37BBCDF8FF /* egAnimation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egAnimation.h; path = Horde3D/Source/Horde3DEngine/egAnimation.h; sourceTree = SOURCE_ROOT; };
+		FA9BE293009A46B2BDBEEAD4 /* egScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = egScene.cpp; path = Horde3D/Source/Horde3DEngine/egScene.cpp; sourceTree = SOURCE_ROOT; };
+		FADE493C51C044808D997756 /* stream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream.c; path = Horde3D/Samples/glfw/lib/stream.c; sourceTree = SOURCE_ROOT; };
+		FD86009A5F664C258F03DBFE /* app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = app.h; path = Horde3D/Samples/Chicago/app.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0064DD3628C34F918A74C1F2 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				92DE965D0332469DAFC84118 /* Source Files */,
+				4706F8A6ACBA4FB396124C0B /* CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		050693FD41C9489D9C7A668D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8B21BD4E9E84B67BB6CA50A /* app.cpp */,
+				F456F95629B849B2A195158C /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0A6BB3F9AD3A4D28A0989CC1 /* Horde3D */ = {
+			isa = PBXGroup;
+			children = (
+				B6D76B4FE1A2461F873E74D0 /* Source Files */,
+				AD0ACCBDFDA64334ADD85025 /* Header Files */,
+				313AC385F7C44D948ECED29F /* CMakeLists.txt */,
+			);
+			name = Horde3D;
+			sourceTree = "<group>";
+		};
+		194685B208FB4DD1B77A71DF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				926047EAAC1948FEADB0B961 /* ALL_BUILD */,
+				C328A4BB0D3A400BB0B8CF64 /* ZERO_CHECK */,
+				0A6BB3F9AD3A4D28A0989CC1 /* Horde3D */,
+				8D46D720AE864E7F92F53783 /* Horde3DUtils */,
+				DFB74D7524F7425C8C077ACE /* ColladaConv */,
+				0064DD3628C34F918A74C1F2 /* glfw */,
+				37AA281B317740CB825712A2 /* Chicago */,
+				2CB1AE9AD2984DC1A6E935AD /* Knight */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1CEC34E1BE39430786E12D12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C199401864026A19C4921 /* Horde3D.h */,
+				5195A8F256B648C28F0E0DAC /* egAnimatables.h */,
+				FA4505B5E2E94E37BBCDF8FF /* egAnimation.h */,
+				7CA498BB0FEC45E98F54133F /* egCamera.h */,
+				6FC1A2DFFC23451192FECD14 /* egCom.h */,
+				13758C8788564E2E97184CDA /* egExtensions.h */,
+				8F384F27CD5B4651A88F7745 /* egGeometry.h */,
+				3DE3676E12144E8B9956256C /* egLight.h */,
+				7388A4AC835E41A285F38916 /* egMaterial.h */,
+				EA9A24892759408684CC6273 /* egModel.h */,
+				71F044C8DD36450C92EC3E0A /* egModules.h */,
+				99FE3FE21E294A569163FA45 /* egParticle.h */,
+				D030FA07AC664652A7591FCA /* egPipeline.h */,
+				4313024A5BA74783AE2401B8 /* egPrerequisites.h */,
+				9F11A8F1A8E040D7A650A8E8 /* egPrimitives.h */,
+				E68BB0B9991E464E9AD28F26 /* egRenderer.h */,
+				051CEF3399FF46AFB111D9B4 /* egRendererBase.h */,
+				6B49CC99464449B5A9AB38F2 /* egResource.h */,
+				D374EA7AD3AF4B839BE55937 /* egScene.h */,
+				79A4661AEDE445F789180321 /* egSceneGraphRes.h */,
+				541DA9495EE94820B3AEB5EB /* egShader.h */,
+				103448526E494C288FAD468B /* egTexture.h */,
+				180040D24D5048FC9C73093F /* utImage.h */,
+				C4348FED9CDC4E5CA3F1D66C /* utOpenGL.h */,
+				B011017F51AA40C3AFC2514A /* utTimer.h */,
+				374538006A2D4BFF91C37BD4 /* Horde3DUtils.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2448C37A261E485CAF0D785C = {
+			isa = PBXGroup;
+			children = (
+				194685B208FB4DD1B77A71DF /* Sources */,
+				1CEC34E1BE39430786E12D12 /* Resources */,
+				EB7D1FD49A5D4FB4A7A36A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB1AE9AD2984DC1A6E935AD /* Knight */ = {
+			isa = PBXGroup;
+			children = (
+				C87834E013004EE79A37DCF1 /* Header Files */,
+				050693FD41C9489D9C7A668D /* Source Files */,
+				C1833BF83E3049008F477D27 /* Resources */,
+				2C8BCA27893B403BBD1B521B /* CMakeLists.txt */,
+			);
+			name = Knight;
+			sourceTree = "<group>";
+		};
+		37AA281B317740CB825712A2 /* Chicago */ = {
+			isa = PBXGroup;
+			children = (
+				DF1D986B4D784E1C806BE520 /* Header Files */,
+				989D243A62E24FBFBADB350F /* Source Files */,
+				49C3B7A00A514E08BD32B84E /* Resources */,
+				136A6DF0578A4B128E1AE48F /* CMakeLists.txt */,
+			);
+			name = Chicago;
+			sourceTree = "<group>";
+		};
+		49C3B7A00A514E08BD32B84E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87243E543FA74B1F8B6450B8 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C0880C1D9E04B388DF92FAB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D9D9D9D64439F8AE1D448 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		77709AD1A666437F96E0CCA5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8D46D720AE864E7F92F53783 /* Horde3DUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5C0880C1D9E04B388DF92FAB /* Source Files */,
+				CD69D29610B244BCA87381FC /* Header Files */,
+				E17A496A1C794520880FC5E5 /* CMakeLists.txt */,
+			);
+			name = Horde3DUtils;
+			sourceTree = "<group>";
+		};
+		926047EAAC1948FEADB0B961 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CAA90C8008FE4942B47FF165 /* CMake Rules */,
+				08998B26FCD246C4888F9A9A /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		92DE965D0332469DAFC84118 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E3B87DBCC4EE882E0A82A /* cocoa_enable.m */,
+				99D05D2FC11942FD9F759221 /* cocoa_fullscreen.m */,
+				0F4FB4488E484A9E9824EA9D /* cocoa_glext.m */,
+				96BA6851D75C42B5933826BA /* cocoa_init.m */,
+				09EAE922F19B48A791AD1807 /* cocoa_joystick.m */,
+				795BFECCD7A04013A7EA04DB /* cocoa_thread.c */,
+				DB1C0C08CD824783BA5DACB0 /* cocoa_time.m */,
+				2076BC23780348DCB88A63BA /* cocoa_window.m */,
+				6156A50293EB4CB89E7F216E /* enable.c */,
+				AD79E6B4428549B3991CDF62 /* fullscreen.c */,
+				A483D72C945949A896D38478 /* glext.c */,
+				76E04D93201940F991A67FD3 /* image.c */,
+				3CEA9550BE5C47A9849FE092 /* init.c */,
+				B931547D90A14C7A95F75A5F /* input.c */,
+				71E2FDDF72AE445CAF37F682 /* joystick.c */,
+				FADE493C51C044808D997756 /* stream.c */,
+				241ADC2E5AD545F9849F4434 /* tga.c */,
+				BD642A0314BD4A0391C20304 /* thread.c */,
+				CC43A7AC5FFC49AFA740C2FC /* time.c */,
+				DC94781110A8406E969D8A1C /* window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		989D243A62E24FBFBADB350F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				284526EE1AB447DDBAAA1005 /* app.cpp */,
+				94829297F3DB42F5BF5C2BB1 /* crowd.cpp */,
+				1E8B83C4FB7F4EE3BA0ABFD6 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A832325A9EE14AE990E7BBCB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				142A7411C5024777B62004C7 /* converter.cpp */,
+				9A46EEFE9E014F03BFEAF626 /* daeMain.cpp */,
+				87BA4F9EA8F94D7685B2A6A8 /* main.cpp */,
+				16BEFE19D6184E1DA9629CCD /* optimizer.cpp */,
+				7B65D7E8465D4D5995390AE5 /* utils.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ACCAA2ABFA2D45A78290D69D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F721CBBB63F3456C84B96454 /* converter.h */,
+				E4100EA853934A2EB62FBD9F /* daeCommon.h */,
+				71FA114E36D140CCB17B20C3 /* daeLibAnimations.h */,
+				845890CC095A4C83BA19453B /* daeLibControllers.h */,
+				5E2C7C64017945978BC52A47 /* daeLibEffects.h */,
+				D6486526C93D40118632B008 /* daeLibGeometries.h */,
+				7F5470746A524906B80FEF69 /* daeLibImages.h */,
+				2871CAC4565F4DBFB8A582D1 /* daeLibMaterials.h */,
+				7A9B06D558A8472480E50979 /* daeLibVisualScenes.h */,
+				3E3FE07C77D44C088F95050D /* daeMain.h */,
+				5D32BD14D48B450A9425CDD8 /* optimizer.h */,
+				77AA73889BDE4AD6BE55E52E /* utils.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AD0ACCBDFDA64334ADD85025 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C199401864026A19C4921 /* Horde3D.h */,
+				BBBFBC8ACA9B4106948EB680 /* config.h */,
+				5195A8F256B648C28F0E0DAC /* egAnimatables.h */,
+				FA4505B5E2E94E37BBCDF8FF /* egAnimation.h */,
+				7CA498BB0FEC45E98F54133F /* egCamera.h */,
+				6FC1A2DFFC23451192FECD14 /* egCom.h */,
+				13758C8788564E2E97184CDA /* egExtensions.h */,
+				8F384F27CD5B4651A88F7745 /* egGeometry.h */,
+				3DE3676E12144E8B9956256C /* egLight.h */,
+				7388A4AC835E41A285F38916 /* egMaterial.h */,
+				EA9A24892759408684CC6273 /* egModel.h */,
+				71F044C8DD36450C92EC3E0A /* egModules.h */,
+				99FE3FE21E294A569163FA45 /* egParticle.h */,
+				D030FA07AC664652A7591FCA /* egPipeline.h */,
+				4313024A5BA74783AE2401B8 /* egPrerequisites.h */,
+				9F11A8F1A8E040D7A650A8E8 /* egPrimitives.h */,
+				E68BB0B9991E464E9AD28F26 /* egRenderer.h */,
+				051CEF3399FF46AFB111D9B4 /* egRendererBase.h */,
+				6B49CC99464449B5A9AB38F2 /* egResource.h */,
+				D374EA7AD3AF4B839BE55937 /* egScene.h */,
+				79A4661AEDE445F789180321 /* egSceneGraphRes.h */,
+				541DA9495EE94820B3AEB5EB /* egShader.h */,
+				103448526E494C288FAD468B /* egTexture.h */,
+				180040D24D5048FC9C73093F /* utImage.h */,
+				C4348FED9CDC4E5CA3F1D66C /* utOpenGL.h */,
+				B011017F51AA40C3AFC2514A /* utTimer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B6D76B4FE1A2461F873E74D0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F7DB60B6364A609BCE632D /* egAnimatables.cpp */,
+				03DC222879DB42289D4AC164 /* egAnimation.cpp */,
+				03C0238025E046DC999B4B8F /* egCamera.cpp */,
+				616D9FDDB1C44782883CE7BD /* egCom.cpp */,
+				6BCE99B792E14E1F8E950953 /* egExtensions.cpp */,
+				93A340931759469694DD68F2 /* egGeometry.cpp */,
+				9B242476D51E4EA395A8B96D /* egLight.cpp */,
+				412495EC60774F3984FE19E0 /* egMain.cpp */,
+				A463972685ED47338A10FB4D /* egMaterial.cpp */,
+				631748FD6F834F70BBBDCC24 /* egModel.cpp */,
+				F103D27421C44702A1E47684 /* egModules.cpp */,
+				CC58DA8DF8204A9B8FA13A16 /* egParticle.cpp */,
+				D4399808F24F44C2A9A5968C /* egPipeline.cpp */,
+				EE17BA59EE6141CF818C4356 /* egPrimitives.cpp */,
+				943B5BA9F88E4445901F976E /* egRenderer.cpp */,
+				DE960C6081834136B6051C20 /* egRendererBase.cpp */,
+				888377FB8BE8433F9186A99D /* egResource.cpp */,
+				FA9BE293009A46B2BDBEEAD4 /* egScene.cpp */,
+				B7DC48E5506A4E3BBA798C4E /* egSceneGraphRes.cpp */,
+				C8D5F8BD914C4087BE9182DF /* egShader.cpp */,
+				B15F6253A3AB4E4BA6CBB5FC /* egTexture.cpp */,
+				C451CDC710D74E389469AD2E /* utImage.cpp */,
+				B2E45E88C1A740878ECF3D69 /* utOpenGL.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1833BF83E3049008F477D27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3544AACE39C34D0D91222478 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C328A4BB0D3A400BB0B8CF64 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				77709AD1A666437F96E0CCA5 /* CMake Rules */,
+				08998B26FCD246C4888F9A9A /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C87834E013004EE79A37DCF1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5A7DF9681468DAFE798D5 /* app.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CAA90C8008FE4942B47FF165 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CD69D29610B244BCA87381FC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				374538006A2D4BFF91C37BD4 /* Horde3DUtils.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DF1D986B4D784E1C806BE520 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD86009A5F664C258F03DBFE /* app.h */,
+				F3310E3AE4334AE2AC9B69D6 /* crowd.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DFB74D7524F7425C8C077ACE /* ColladaConv */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAA2ABFA2D45A78290D69D /* Header Files */,
+				A832325A9EE14AE990E7BBCB /* Source Files */,
+				7D6007B115D9429C80B874F5 /* CMakeLists.txt */,
+			);
+			name = ColladaConv;
+			sourceTree = "<group>";
+		};
+		EB7D1FD49A5D4FB4A7A36A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D27CF0330CF4B458CC5B4B5 /* Horde3D.framework */,
+				BFA6510D24A54218A1390CB9 /* Horde3DUtils.framework */,
+				F9AD35D13593475FAC926C1A /* ColladaConv */,
+				3943488C7E864E76932DCB0B /* libglfw.a */,
+				159F00D1B4CC4111AFBB4DD2 /* Chicago.app */,
+				63605CAF9C7A427D90ABDC18 /* Knight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7ED92EB257824035AB5386EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989B26A1C6AE4F49A02CED04 /* Horde3DUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B17790F60A4248B5039C98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C695F557DC742B99B0FA506 /* Horde3D.h in Headers */,
+				70439B2946FA436B8B9DA309 /* config.h in Headers */,
+				14DD19E8DF624C729C926DE3 /* egAnimatables.h in Headers */,
+				E23D5D04391D4B7F98A4D443 /* egAnimation.h in Headers */,
+				E7310E3F96DF46A995E8EF04 /* egCamera.h in Headers */,
+				76D59A7A2D5B45B38A089362 /* egCom.h in Headers */,
+				5920946022B64C48A1327455 /* egExtensions.h in Headers */,
+				C16D8AD0D348487883E018E6 /* egGeometry.h in Headers */,
+				63F95814071D4CB3A93A62E7 /* egLight.h in Headers */,
+				96F17182FF354748AAA18034 /* egMaterial.h in Headers */,
+				88354A8C713E4B27BF9A91D2 /* egModel.h in Headers */,
+				1275A02D08164CA2A32B64DA /* egModules.h in Headers */,
+				6D8A99DF355C4AE08B103ADF /* egParticle.h in Headers */,
+				E8DA2F4F48FC49A885E44661 /* egPipeline.h in Headers */,
+				5A01DB8B99DA4F88B8191F41 /* egPrerequisites.h in Headers */,
+				31608E9FD7A94D578A3D4114 /* egPrimitives.h in Headers */,
+				C07965E3F1254DBDA998F11D /* egRenderer.h in Headers */,
+				BA2A22F6E8DD4EF08D0F36D0 /* egRendererBase.h in Headers */,
+				284960FD4738428BBDD67D4A /* egResource.h in Headers */,
+				4DB57BBE5EB149ADA8CD7B43 /* egScene.h in Headers */,
+				633085A7026445EF8075A5D7 /* egSceneGraphRes.h in Headers */,
+				9BD5369E554C455D87DB52E3 /* egShader.h in Headers */,
+				0EA9C5A072414C37A7BDBF47 /* egTexture.h in Headers */,
+				E60E182A8DEB4E09B04688C1 /* utImage.h in Headers */,
+				55C961CB520A4C11A58B5F07 /* utOpenGL.h in Headers */,
+				C8DDD05ECA48437882AEB3EB /* utTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7068C19C3778421089425BAC /* Horde3DUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4357CA4D49EE4C3D90BA88D5 /* Build configuration list for PBXNativeTarget "Horde3DUtils" */;
+			buildPhases = (
+				7ED92EB257824035AB5386EA /* Headers */,
+				DA149123E19A4A2CA80AC067 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF64CAB7841492A8C89FCD3 /* PBXTargetDependency */,
+				5D118ED959A64CB89948A003 /* PBXTargetDependency */,
+			);
+			name = Horde3DUtils;
+			productName = Horde3DUtils;
+			productReference = BFA6510D24A54218A1390CB9 /* Horde3DUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DFCEC9AC20B47639B9DEC1E /* Horde3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFD77077D13476D8F320FA9 /* Build configuration list for PBXNativeTarget "Horde3D" */;
+			buildPhases = (
+				C3B17790F60A4248B5039C98 /* Headers */,
+				F458CFA8604E49A5A0B719D4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA5F07E7AB4860BD8B45C7 /* PBXTargetDependency */,
+			);
+			name = Horde3D;
+			productName = Horde3D;
+			productReference = 5D27CF0330CF4B458CC5B4B5 /* Horde3D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		847C3F417EB642A596A89B62 /* ColladaConv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF665136E2534B21A650C01B /* Build configuration list for PBXNativeTarget "ColladaConv" */;
+			buildPhases = (
+				5ED9B6922D8549BE8EDE734F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69FE3F91E5C40958F70270A /* PBXTargetDependency */,
+			);
+			name = ColladaConv;
+			productName = ColladaConv;
+			productReference = F9AD35D13593475FAC926C1A /* ColladaConv */;
+			productType = "com.apple.product-type.tool";
+		};
+		CCD6381082C04D38B86E7C0A /* Chicago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F56053DD0041CFAEDC7A07 /* Build configuration list for PBXNativeTarget "Chicago" */;
+			buildPhases = (
+				5DD59457F5424B5DB681D018 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38431172438F41A3AE3C9067 /* PBXTargetDependency */,
+				0C6A5155E63443D2B6034732 /* PBXTargetDependency */,
+				165F5A3DCA9C4FF5A1BA2218 /* PBXTargetDependency */,
+				84327DAFFAD94FD292545E92 /* PBXTargetDependency */,
+			);
+			name = Chicago;
+			productName = Chicago;
+			productReference = 159F00D1B4CC4111AFBB4DD2 /* Chicago.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF0C26385CD3471DB9B2F8AC /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C963AAD29BB420090E4842E /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				FAED3AC7C7C14E709F6A0454 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7964F328464943D7B7C67EE7 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 3943488C7E864E76932DCB0B /* libglfw.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB905AEBA5F246E8A9794957 /* Knight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2516B015A53B47528A1D738E /* Build configuration list for PBXNativeTarget "Knight" */;
+			buildPhases = (
+				9DE3A2B234254AC3888225BC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AAF3484EE874F24967A1DF4 /* PBXTargetDependency */,
+				B48DF80AEF244840A4F59E20 /* PBXTargetDependency */,
+				83D90EC139B74EAC8DDAC755 /* PBXTargetDependency */,
+				1ACBD306BA7C42C6923D62C5 /* PBXTargetDependency */,
+			);
+			name = Knight;
+			productName = Knight;
+			productReference = 63605CAF9C7A427D90ABDC18 /* Knight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F28B825CA442D4958F2337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 089518E82E5845AB8CA1A705 /* Build configuration list for PBXProject "Horde3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2448C37A261E485CAF0D785C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC536AC7CB6843E7A63DFB4A /* ALL_BUILD */,
+				084088AF59384B4EB81A0977 /* ZERO_CHECK */,
+				7DFCEC9AC20B47639B9DEC1E /* Horde3D */,
+				7068C19C3778421089425BAC /* Horde3DUtils */,
+				847C3F417EB642A596A89B62 /* ColladaConv */,
+				DF0C26385CD3471DB9B2F8AC /* glfw */,
+				CCD6381082C04D38B86E7C0A /* Chicago */,
+				FB905AEBA5F246E8A9794957 /* Knight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F77DE7A7094CA3AC0EDDF0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sfszh/dev/Horde3D_SDK -f /Users/sfszh/dev/Horde3D_SDK/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2883E198BD1D4CE7AA8EB6EE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sfszh/dev/Horde3D_SDK -f /Users/sfszh/dev/Horde3D_SDK/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD59457F5424B5DB681D018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5887ABF24E4F60BD2A3631 /* app.cpp in Sources */,
+				0A6B3F95734C428DA965329C /* crowd.cpp in Sources */,
+				773A1228F23C43C5B698F7ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED9B6922D8549BE8EDE734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15554EC28C134A70B1C8655F /* converter.cpp in Sources */,
+				B1F30BC486B14985AC9AE9B4 /* daeMain.cpp in Sources */,
+				7EBA3DB28267442E983197E8 /* main.cpp in Sources */,
+				A3EF26AAD58543BEBD62ED43 /* optimizer.cpp in Sources */,
+				257E99A1D5D7418693E3626A /* utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE3A2B234254AC3888225BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4F9033336F45B9B47C09EB /* app.cpp in Sources */,
+				CB3B133A34A84C848FC65F9F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA149123E19A4A2CA80AC067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E43FB2EF725498AAA8D9543 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CFA8604E49A5A0B719D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D3025BDDD405D803E72C0 /* egAnimatables.cpp in Sources */,
+				A336FF566ABE4E44A7167192 /* egAnimation.cpp in Sources */,
+				FE21C6DEF7E448B39BBE62D8 /* egCamera.cpp in Sources */,
+				CC8D2DE0BA264A40B7D1D1C1 /* egCom.cpp in Sources */,
+				233439A118124A95A7211DB8 /* egExtensions.cpp in Sources */,
+				FF581AF6997946A2AE595CFF /* egGeometry.cpp in Sources */,
+				A34103C6DE2D4CC891E6DBB1 /* egLight.cpp in Sources */,
+				EDD76676EFAA45E1B46C1699 /* egMain.cpp in Sources */,
+				A8EE60B0D14846B39A509477 /* egMaterial.cpp in Sources */,
+				154B5C3316B4434B9F995DD1 /* egModel.cpp in Sources */,
+				948081AE31E3422DA0953AB2 /* egModules.cpp in Sources */,
+				D08BD803437546299BDD6965 /* egParticle.cpp in Sources */,
+				1949694D0E3849349F9BA19E /* egPipeline.cpp in Sources */,
+				13B2FAE6D8FE4003BDF8B027 /* egPrimitives.cpp in Sources */,
+				64973AD7095141708A6E5ED8 /* egRenderer.cpp in Sources */,
+				781192BEF1204AEEBD40225D /* egRendererBase.cpp in Sources */,
+				6D732F6184A944F1AF629C93 /* egResource.cpp in Sources */,
+				2F2E82689C3F44D5A388DC8F /* egScene.cpp in Sources */,
+				185C946DDB0748F2BA3EF8EB /* egSceneGraphRes.cpp in Sources */,
+				1AEBE3099CC948D08976F238 /* egShader.cpp in Sources */,
+				8E16A24FFC3E41CFBEF4BB89 /* egTexture.cpp in Sources */,
+				9F6818C755124028A98C6536 /* utImage.cpp in Sources */,
+				D07E7AC65EFB49DEBB90FFB2 /* utOpenGL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAED3AC7C7C14E709F6A0454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AF9D1EF3E74238AFF1B9F5 /* cocoa_enable.m in Sources */,
+				9076F73262414492A243300E /* cocoa_fullscreen.m in Sources */,
+				22FF4F697A39419C85E604F5 /* cocoa_glext.m in Sources */,
+				2B1F05592B1A4F2383EE19E8 /* cocoa_init.m in Sources */,
+				EC37C07F934348778F1DAB4C /* cocoa_joystick.m in Sources */,
+				1214C88AE8674B07968F91DC /* cocoa_thread.c in Sources */,
+				6377142A077245B298595816 /* cocoa_time.m in Sources */,
+				5199881516A249C3B5406D8A /* cocoa_window.m in Sources */,
+				C9C46E540F284120B1E46FD7 /* enable.c in Sources */,
+				BDDFCC287752493885B44739 /* fullscreen.c in Sources */,
+				00DEC91FAE94421E94143460 /* glext.c in Sources */,
+				E6EB6BAA4BB94C22B0AB161F /* image.c in Sources */,
+				378C1B93588C40F7975B1A04 /* init.c in Sources */,
+				369DD5BCD2B3443FBA61F0D1 /* input.c in Sources */,
+				40121404E4A642E9A250FA2F /* joystick.c in Sources */,
+				B75CE9E5B71D48E1BE663272 /* stream.c in Sources */,
+				2BA34BC95C834D99B8322B11 /* tga.c in Sources */,
+				DE89A05F58D24E3193790CAB /* thread.c in Sources */,
+				3332FFC4B41B47F6B8615554 /* time.c in Sources */,
+				A042471E5C7C4AFFABBD87C7 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C6A5155E63443D2B6034732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFCEC9AC20B47639B9DEC1E /* Horde3D */;
+			targetProxy = DCFA446573604C31B27DD4A8 /* PBXContainerItemProxy */;
+		};
+		142A530837804D4CA8476EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7068C19C3778421089425BAC /* Horde3DUtils */;
+			targetProxy = 1D3F595471BF4DCFA05D51BC /* PBXContainerItemProxy */;
+		};
+		165F5A3DCA9C4FF5A1BA2218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7068C19C3778421089425BAC /* Horde3DUtils */;
+			targetProxy = A291CE0959314ADA8B0DDC99 /* PBXContainerItemProxy */;
+		};
+		1ACBD306BA7C42C6923D62C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0C26385CD3471DB9B2F8AC /* glfw */;
+			targetProxy = C989D19998964199AB9F9133 /* PBXContainerItemProxy */;
+		};
+		2BF64CAB7841492A8C89FCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = CA67501CFE194E82836B46EB /* PBXContainerItemProxy */;
+		};
+		2FB90C5F91004EFDB1219A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847C3F417EB642A596A89B62 /* ColladaConv */;
+			targetProxy = 91B64BEB5246472A9FF2F7AA /* PBXContainerItemProxy */;
+		};
+		38431172438F41A3AE3C9067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = 2E3C33F5209C4934AD60E507 /* PBXContainerItemProxy */;
+		};
+		386993BE415049CA8EBDED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB905AEBA5F246E8A9794957 /* Knight */;
+			targetProxy = 9079A23DB2F846BFA504C6C3 /* PBXContainerItemProxy */;
+		};
+		4AAF3484EE874F24967A1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = B3D01570582B49CBBD12A331 /* PBXContainerItemProxy */;
+		};
+		5D118ED959A64CB89948A003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFCEC9AC20B47639B9DEC1E /* Horde3D */;
+			targetProxy = 100FB10FD8B84A998A25EBC6 /* PBXContainerItemProxy */;
+		};
+		7964F328464943D7B7C67EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = 55408D75C512462997AD006A /* PBXContainerItemProxy */;
+		};
+		7FED7888FE404AEE91C69A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = 6C5C1EF2DB3F4CD7A72997F5 /* PBXContainerItemProxy */;
+		};
+		83D90EC139B74EAC8DDAC755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7068C19C3778421089425BAC /* Horde3DUtils */;
+			targetProxy = FD3682F200F74C3582EC7A4F /* PBXContainerItemProxy */;
+		};
+		84327DAFFAD94FD292545E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0C26385CD3471DB9B2F8AC /* glfw */;
+			targetProxy = E53F002327994454BCDC496A /* PBXContainerItemProxy */;
+		};
+		A2A75B95F68B46C3AD62A0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFCEC9AC20B47639B9DEC1E /* Horde3D */;
+			targetProxy = 2E461B8DCB0945EE97228FA9 /* PBXContainerItemProxy */;
+		};
+		B48DF80AEF244840A4F59E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFCEC9AC20B47639B9DEC1E /* Horde3D */;
+			targetProxy = BCD9CDBAF2F44918AE5DF067 /* PBXContainerItemProxy */;
+		};
+		B69FE3F91E5C40958F70270A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = 03458762EECB4D8FB87AC30B /* PBXContainerItemProxy */;
+		};
+		B7A32BC7B13642B598AA7B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0C26385CD3471DB9B2F8AC /* glfw */;
+			targetProxy = 8894DCA78C514DD5B33B2057 /* PBXContainerItemProxy */;
+		};
+		BAA729A30E494D2EB059E5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD6381082C04D38B86E7C0A /* Chicago */;
+			targetProxy = 1996C913139646D599098EE0 /* PBXContainerItemProxy */;
+		};
+		CAEA5F07E7AB4860BD8B45C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084088AF59384B4EB81A0977 /* ZERO_CHECK */;
+			targetProxy = E39AE1A9773247748D8D051E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0360851085854DFAB927759C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ColladaConv;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		079C51AD9EF14E95BCCAEB31 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/build;
+			};
+			name = RelWithDebInfo;
+		};
+		1439849FA41046009926D156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3D_EXPORTS,
+					CMAKE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/.,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../..,
+					/Users/sfszh/dev/Horde3D_SDK,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/CMakeFiles/Horde3D.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		16D495C932274A95996890EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3D_EXPORTS,
+					CMAKE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/.,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../..,
+					/Users/sfszh/dev/Horde3D_SDK,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/CMakeFiles/Horde3D.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		170E9F057B2147EF994E92F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		198CB889BFBD45D78A8A58FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ColladaConv;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		1E49201C303C4E468ADEEFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Knight;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		26E37BF8517A4A4694ACC80C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3D_EXPORTS,
+					CMAKE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/.,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../..,
+					/Users/sfszh/dev/Horde3D_SDK,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/CMakeFiles/Horde3D.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		2A9E6174E6AA4C748FD89D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		44F3ED84BE95456F8342A802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3DUtils_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../../Bindings/C++",
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Release;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3DUtils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		4BECB6242B064A7AB14807B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Release/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Chicago;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		53623FC0B9BF432D8D263C01 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/MinSizeRel/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Chicago;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		53B0098E1C8D42A1A1C73B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Chicago;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		5D1D1D067A9F423D877B1CC1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3DUtils_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../../Bindings/C++",
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/MinSizeRel;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3DUtils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7153971D8BD64D28A82240DB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		721F79391E2C44B784CD02F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/MinSizeRel/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/MinSizeRel/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Knight;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7904ECE7BE974D70B1B17DA6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3DUtils_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../../Bindings/C++",
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/RelWithDebInfo;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3DUtils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7908DD35F902401A829AF987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/build;
+			};
+			name = Debug;
+		};
+		834199DD6AEF45F498CC22D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		84C6CA84788446FEB08E11BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		86F7C76745244426ABD35539 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/RelWithDebInfo/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Knight;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		917A5F1024E047C7981AA83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		994C05B3A20A4A1AA97911E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3DUtils_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../../Bindings/C++",
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3DUtils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		A4D3D7505F2F4C39B515D041 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/build;
+			};
+			name = MinSizeRel;
+		};
+		ABF954850ADE4CF4BF537E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		B1804FE7AA324ECF84E1EC91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		C122366423C946A79B525104 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C939FB4EE75C4D8C863EE4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		CB24C861FFCF46D5961F4525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					Horde3D_EXPORTS,
+					CMAKE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/.,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../Shared,
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/../../..,
+					/Users/sfszh/dev/Horde3D_SDK,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/CMakeFiles/Horde3D.dir/Info.plist;
+				INSTALL_PATH = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Horde3D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		CC7DCB15F0F24E35A6A281EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		CDFE1E5FFB77421E83FD9276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Release/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Release/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Release/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Knight;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		CE39A350256D465082C16058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/build;
+			};
+			name = Release;
+		};
+		CFB0F9D8BF0144F18313AB10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ColladaConv;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E0706B03A4094E5BBE0B9CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/../Shared;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ColladaConv;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F0CFDB8BB30C459AAA9621A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/./lib/cocoa,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		FE6B7AB14C7A4779AF5578A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw,
+				);
+				INFOPLIST_FILE = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_CPLUSPLUSFLAGS = "  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.framework/Versions/A/Horde3D,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/RelWithDebInfo/Horde3DUtils.framework/Versions/A/Horde3DUtils,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/RelWithDebInfo/libglfw.a,
+					"-framework",
+					Cocoa,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					AGL,
+					/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.framework/Versions/A/Horde3D,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Chicago;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089518E82E5845AB8CA1A705 /* Build configuration list for PBXProject "Horde3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7908DD35F902401A829AF987 /* Debug */,
+				CE39A350256D465082C16058 /* Release */,
+				A4D3D7505F2F4C39B515D041 /* MinSizeRel */,
+				079C51AD9EF14E95BCCAEB31 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2516B015A53B47528A1D738E /* Build configuration list for PBXNativeTarget "Knight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E49201C303C4E468ADEEFBB /* Debug */,
+				CDFE1E5FFB77421E83FD9276 /* Release */,
+				721F79391E2C44B784CD02F6 /* MinSizeRel */,
+				86F7C76745244426ABD35539 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33E356C8F2CF4DB28C7C44D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C939FB4EE75C4D8C863EE4DB /* Debug */,
+				2A9E6174E6AA4C748FD89D98 /* Release */,
+				170E9F057B2147EF994E92F8 /* MinSizeRel */,
+				B1804FE7AA324ECF84E1EC91 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4357CA4D49EE4C3D90BA88D5 /* Build configuration list for PBXNativeTarget "Horde3DUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994C05B3A20A4A1AA97911E9 /* Debug */,
+				44F3ED84BE95456F8342A802 /* Release */,
+				5D1D1D067A9F423D877B1CC1 /* MinSizeRel */,
+				7904ECE7BE974D70B1B17DA6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		481FF7B64A5D4E919E7AAD86 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917A5F1024E047C7981AA83D /* Debug */,
+				CC7DCB15F0F24E35A6A281EE /* Release */,
+				834199DD6AEF45F498CC22D7 /* MinSizeRel */,
+				84C6CA84788446FEB08E11BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67F56053DD0041CFAEDC7A07 /* Build configuration list for PBXNativeTarget "Chicago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B0098E1C8D42A1A1C73B79 /* Debug */,
+				4BECB6242B064A7AB14807B4 /* Release */,
+				53623FC0B9BF432D8D263C01 /* MinSizeRel */,
+				FE6B7AB14C7A4779AF5578A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C963AAD29BB420090E4842E /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CFDB8BB30C459AAA9621A4 /* Debug */,
+				ABF954850ADE4CF4BF537E32 /* Release */,
+				C122366423C946A79B525104 /* MinSizeRel */,
+				7153971D8BD64D28A82240DB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF665136E2534B21A650C01B /* Build configuration list for PBXNativeTarget "ColladaConv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0360851085854DFAB927759C /* Debug */,
+				E0706B03A4094E5BBE0B9CEC /* Release */,
+				198CB889BFBD45D78A8A58FE /* MinSizeRel */,
+				CFB0F9D8BF0144F18313AB10 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDFD77077D13476D8F320FA9 /* Build configuration list for PBXNativeTarget "Horde3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB24C861FFCF46D5961F4525 /* Debug */,
+				1439849FA41046009926D156 /* Release */,
+				16D495C932274A95996890EB /* MinSizeRel */,
+				26E37BF8517A4A4694ACC80C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60F28B825CA442D4958F2337 /* Project object */;
+}

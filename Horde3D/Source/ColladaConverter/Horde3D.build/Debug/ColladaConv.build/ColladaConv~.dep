@@ -1,0 +1,6 @@
+91dcb00dd2cde819258a19df89d263fb 405da14abce01da78322b68161abec00 ffffffffffffffffffffffffffffffff 0 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Binaries/Darwin/Debug/ColladaConv
+000000004de0a0760000000000000bae 6a1f802266311b0dea6ed16589a5b7f2 ffffffffffffffffffffffffffffffff 24404 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/utils.o
+000000004de0a0760000000000001f9b 3372b3c1f0a83b3e9db40cb325e253c7 ffffffffffffffffffffffffffffffff 84288 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/optimizer.o
+000000004de0a07600000000000024a6 90894f7ce881f4ed205b6c8c9a0bc614 ffffffffffffffffffffffffffffffff 148236 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/main.o
+000000004de0a0760000000000000812 1c3d751fd1e6430d159d1303a9be1bbd ffffffffffffffffffffffffffffffff 394648 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/daeMain.o
+000000004de0a076000000000000afd5 4405b98d30fc94796796bb861620cf17 ffffffffffffffffffffffffffffffff 312072 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/ColladaConverter/Horde3D.build/Debug/ColladaConv.build/Objects-normal/x86_64/converter.o

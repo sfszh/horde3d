@@ -1,0 +1,5 @@
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeFiles/ALL_BUILD.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Knight/CMakeFiles/Knight.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeFiles/ZERO_CHECK.dir
+/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/CMakeFiles/glfw.dir

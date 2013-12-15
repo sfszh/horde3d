@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh
+c0000000052AC3EC00000000000000093
+t1387019968
+s147
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd5b3fc40765cb841^a27b0241765cb841^---0#1#1#--18"Check dependencies36"B1CC4790-0CF9-4BFB-ADED-835FC9B1D5D9-
+
+CPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh
+s408712769.003242
+e408712769.163338
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh
+oecho ""
+o
+omake -f /Users/sfszh/dev/Horde3D_SDK/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/sfszh/dev/Horde3D_SDK/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'105"PhaseScriptExecution CMake\ Rules Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.shefc70141765cb841^5bd22941765cb841^-159"echo ""make -f /Users/sfszh/dev/Horde3D_SDK/CMakeScripts/ReRunCMake.makemake[1]: `/Users/sfszh/dev/Horde3D_SDK/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-408712769#0#8#-0#-----2@66"make -f /Users/sfszh/dev/Horde3D_SDK/CMakeScripts/ReRunCMake.make-408712769#9#66#-0#-----2@84"make[1]: `/Users/sfszh/dev/Horde3D_SDK/CMakeFiles/cmake.check_cache' is up to date.-408712769#75#84#-0#-----0#0#1#--258"PhaseScriptExecution CMake\ Rules Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh    cd /Users/sfszh/dev/Horde3D_SDK    /bin/sh -c /Users/sfszh/dev/Horde3D_SDK/Horde3D.build/Debug/ZERO_CHECK.build/Script-26F77DE7A7094CA3AC0EDDF0.sh36"064D45E1-A584-4A00-A19F-D0E8640C9862-
+bF44360CE-7958-4857-A3E4-F8E4BADAAE30
+

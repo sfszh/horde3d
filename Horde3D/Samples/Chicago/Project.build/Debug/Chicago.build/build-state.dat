@@ -1,0 +1,209 @@
+TChicago
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist
+cCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005283750400000000000000AA
+t1384346884
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526B6C1B000000000000044C
+t1382771739
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526B6C1B00000000000001DB
+t1382771739
+s475
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+c000000004DE0A0900000000000011CD9
+t1306566800
+s72921
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h
+c000000004DE0A0900000000000002D72
+t1306566800
+s11634
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist
+c0000000052AC000200000000000003E3
+t1387003906
+s995
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/Info.plist
+t1387023459
+s1151
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago
+t2
+s0
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/PkgInfo
+t1387023459
+s8
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/Chicago.LinkFileList
+c0000000052AC4C63000000000000015C
+t1387023459
+s348
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o
+t1387023460
+s79984
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o
+t1387023460
+s90008
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o
+t1387023460
+s92412
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp
+c000000004DE0A07E0000000000001E82
+t1306566782
+s7810
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h
+c000000004DE0A07E0000000000000692
+t1306566782
+s1682
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp
+c000000004DE0A07E0000000000001130
+t1306566782
+s4400
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h
+c000000004DE0A07E0000000000000535
+t1306566782
+s1333
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp
+c000000004DE0A07E00000000000016A4
+t1306566782
+s5796
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+c000000004DE0A07A0000000000004D30
+t1306566778
+s19760
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp
+r0
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5ce75f05875cb841^53046005875cb841^---0#1#1#--18"Check dependencies36"D3D798EC-FD19-4BF0-BF19-99B3A168775E-
+
+CCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.601534
+e408716260.394808
+r1
+xCompileC
+xChicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:223:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['W'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:230:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['S'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:237:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['A'] )
+o                         ^~~~
+o/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:243:12: warning: array subscript is of type 'char' [-Wchar-subscripts]
+o                if( _keys['D'] )
+o                         ^~~~
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp156"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o Chicago/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler87159ae3835cb841^ae2c65e4835cb841^-802"/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:223:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['W'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:230:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['S'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:237:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['A'] )                         ^~~~/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp:243:12: warning: array subscript is of type 'char' [-Wchar-subscripts]                if( _keys['D'] )                         ^~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@33"Array subscript is of type 'char'-408716260#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^222#11#222#11#6768#0#14"Semantic Issue1(3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^222#12#222#15#6769#0#-2@33"Array subscript is of type 'char'-408716260#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^229#11#229#11#7005#0#14"Semantic Issue1(3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^229#12#229#15#7006#0#-2@33"Array subscript is of type 'char'-408716260#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^236#11#236#11#7243#0#14"Semantic Issue1(3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^236#12#236#15#7244#0#-2@33"Array subscript is of type 'char'-408716260#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^242#11#242#11#7389#0#14"Semantic Issue1(3@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^242#12#242#15#7390#0#-0#0#1#-19%DVTDocumentLocation4@67"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp0000000000000000^2278"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o Chicago/app.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/app.o36"B7CB5AF9-E4A1-4ED2-B8C0-E90E2BDC1FD1-
+b12AF36D6-183D-4146-8701-69BA295C9D3A
+
+CCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.601823
+e408716260.117818
+r1
+xCompileC
+xChicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp160"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o Chicago/crowd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7e369ae3835cb841^622d1ee4835cb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp0000000000000000^2290"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o Chicago/crowd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/crowd.o36"9B2E3B9D-7132-4DCD-A1CB-8D7C099F2466-
+b12AF36D6-183D-4146-8701-69BA295C9D3A
+
+CCompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408716259.602345
+e408716260.444964
+r1
+xCompileC
+xChicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/glfw.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/app.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/crowd.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp158"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o Chicago/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler624c9ae3835cb841^f2e971e4835cb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp0000000000000000^2284"CompileC Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o Chicago/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/../glfw -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/main.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/main.o36"DCEAC63E-54CD-43DA-B75F-20D031687A92-
+b12AF36D6-183D-4146-8701-69BA295C9D3A
+
+CLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago normal x86_64
+s408717061.376696
+e408717061.385965
+r0
+xLd
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago
+xnormal
+xx86_64
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/Chicago.LinkFileList
+old: warning: directory not found for option '-L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/Debug'
+old: library not found for -lHorde3D
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago65"Ld Chicago/Debug/Chicago.app/Contents/MacOS/Chicago normal x86_64177e6005875cb841^5bd16205875cb841^-226"ld: warning: directory not found for option '-L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/Debug'ld: library not found for -lHorde3Dclang: error: linker command failed with exit code 1 (use -v to see invocation)3(21%IDEActivityLogMessage2@96"Directory not found for option '-L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/Debug'-408717061#0#110#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@31"Library not found for -lHorde3D-408717061#110#36#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-408717061#146#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1270"Ld Chicago/Debug/Chicago.app/Contents/MacOS/Chicago normal x86_64    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/Debug -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug -filelist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/Chicago.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lHorde3D -lHorde3DUtils /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/glfw/Debug/libglfw.a -framework Cocoa -framework ApplicationServices -framework AGL -Xlinker -dependency_info -Xlinker /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Project.build/Debug/Chicago.build/Objects-normal/x86_64/Chicago_dependency_info.dat -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/MacOS/Chicago36"AEB8A3C7-A6BF-434F-9969-390C9BA9FAF9-
+b3B74CDC7-AA13-4EFA-848A-AB86CBC28751
+
+CProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist
+s408716259.599128
+e408716259.601087
+r1
+xProcessInfoPlistFile
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/Info.plist
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Process /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist108"ProcessInfoPlistFile Chicago/Debug/Chicago.app/Contents/Info.plist Chicago/CMakeFiles/Chicago.dir/Info.plist068199e3835cb841^3be199e3835cb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist0000000000000000^509"ProcessInfoPlistFile Chicago/Debug/Chicago.app/Contents/Info.plist Chicago/CMakeFiles/Chicago.dir/Info.plist    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    builtin-infoPlistUtility /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/CMakeFiles/Chicago.dir/Info.plist -genpkginfo /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app/Contents/Info.plist36"424E5F38-A2D3-4913-932D-04DD4C61FCB7-
+b12AF36D6-183D-4146-8701-69BA295C9D3A
+
+CTouch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Chicago/Debug/Chicago.app
+r0
+

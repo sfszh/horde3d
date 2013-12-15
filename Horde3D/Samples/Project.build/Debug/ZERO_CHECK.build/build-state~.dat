@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh
+c0000000052AC4C6100000000000000B3
+t1387023457
+s179
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies946cc1e1835cb841^79e7c4e1835cb841^---0#1#1#--18"Check dependencies36"29755C3F-B1FB-4B90-B453-8FECCC3AC485-
+
+CPhaseScriptExecution CMake\ Rules /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh
+s408716257.770459
+e408716257.819752
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh
+oecho ""
+o
+omake -f /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'105"PhaseScriptExecution CMake\ Rules Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.shc3b6c5e1835cb841^2bddd1e1835cb841^-191"echo ""make -f /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeScripts/ReRunCMake.makemake[1]: `/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-408716257#0#8#-0#-----2@82"make -f /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeScripts/ReRunCMake.make-408716257#9#82#-0#-----2@100"make[1]: `/Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/CMakeFiles/cmake.check_cache' is up to date.-408716257#91#100#-0#-----0#0#1#--290"PhaseScriptExecution CMake\ Rules Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh    cd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples    /bin/sh -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Samples/Project.build/Debug/ZERO_CHECK.build/Script-673C9B66E29C450C96E6B4CD.sh36"96F62785-44CD-4E56-A0E9-65F7C578059D-
+bE8ECE05B-F330-4555-B69C-677B2218044B
+

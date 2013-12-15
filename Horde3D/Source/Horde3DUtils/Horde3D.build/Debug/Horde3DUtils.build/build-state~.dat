@@ -1,0 +1,170 @@
+THorde3DUtils
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist
+cCpHeader Horde3D/Bindings/C++/Horde3DUtils.h Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h
+cCompileC Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils normal x86_64
+cTouch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005283750400000000000000AA
+t1384346884
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526B6C1B000000000000044C
+t1382771739
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526B6C1B00000000000001DB
+t1382771739
+s475
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h
+c000000004DE0A0900000000000002D72
+t1306566800
+s11634
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist
+c0000000052AC000200000000000002EB
+t1387003906
+s747
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework
+t1387021780
+s204
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h
+t1387021780
+s11634
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils
+t1387021781
+s136008
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist
+t1387021780
+s1005
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/Horde3DUtils.LinkFileList
+c0000000052AC45D4000000000000007D
+t1387021780
+s125
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o
+t1387021781
+s139176
+
+N/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp
+c000000004DE0A076000000000000649E
+t1306566774
+s25758
+
+CBuild AST from /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7b4e9a547d5cb841^92929a547d5cb841^---0#1#1#--18"Check dependencies36"C03E03E6-8A8F-47FD-9400-6393AE7C59D4-
+
+CCompileC Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s408714580.620810
+e408714581.186143
+r1
+xCompileC
+xHorde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3D.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utPlatform.h
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Shared/utMath.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp203"CompileC Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o Horde3D/Source/Horde3DUtils/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc2fb9e547d5cb841^76a72f557d5cb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp0000000000000000^2406"CompileC Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o Horde3D/Source/Horde3DUtils/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sfszh/dev/Horde3D_SDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DHorde3DUtils_EXPORTS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/include -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../Shared -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/../../Bindings/C++ -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/DerivedSources/x86_64 -I/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug -fPIC -MMD -MT dependencies -MF /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.dia -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/main.cpp -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o36"350FE3D2-89D2-4A8E-89F1-78FA2CAE6BBB-
+b12EBCFB0-F48D-4B03-9983-AE167C2A7DD4
+
+CCpHeader Horde3D/Bindings/C++/Horde3DUtils.h Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h
+s408714580.606476
+e408714580.620345
+r1
+xCpHeader
+xHorde3D/Bindings/C++/Horde3DUtils.h
+xHorde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h135"CpHeader Horde3D/Bindings/C++/Horde3DUtils.h Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h6b499b547d5cb841^a7cf9e547d5cb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h00347812ddffdf42^580"CpHeader Horde3D/Bindings/C++/Horde3DUtils.h Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers/Horde3DUtils.h    cd /Users/sfszh/dev/Horde3D_SDK    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/sfszh/dev/Horde3D_SDK/Horde3D/Bindings/C++/Horde3DUtils.h /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Headers36"25ED366C-D2C2-4BCF-B5CC-43B15B78D215-
+b12EBCFB0-F48D-4B03-9983-AE167C2A7DD4
+
+CLd /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils normal x86_64
+s408714581.186687
+e408714581.233811
+r1
+xLd
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils
+xnormal
+xx86_64
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/Horde3DUtils.LinkFileList
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/main.o
+d/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils97"Ld Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils normal x86_6430d62f557d5cb841^7fdb3b557d5cb841^---0#0#1#--1301"Ld Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils normal x86_64    cd /Users/sfszh/dev/Horde3D_SDK    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug -F/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug -filelist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/Horde3DUtils.LinkFileList -install_name /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils -mmacosx-version-min=10.9 /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DEngine/Debug/Horde3D.framework/Versions/A/Horde3D -framework OpenGL -framework CoreFoundation -single_module -Xlinker -dependency_info -Xlinker /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Horde3D.build/Debug/Horde3DUtils.build/Objects-normal/x86_64/Horde3DUtils_dependency_info.dat -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Horde3DUtils36"32888CF3-049D-4F85-8DCB-480146998EA3-
+b12EBCFB0-F48D-4B03-9983-AE167C2A7DD4
+
+CProcessInfoPlistFile /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist
+s408714580.605157
+e408714580.606192
+r1
+xProcessInfoPlistFile
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Process /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist176"ProcessInfoPlistFile Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist05f89a547d5cb841^cb2f9b547d5cb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist0000000000000000^497"ProcessInfoPlistFile Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist    cd /Users/sfszh/dev/Horde3D_SDK    builtin-infoPlistUtility /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/CMakeFiles/Horde3DUtils.dir/Info.plist -expandbuildsettings -platform macosx -o /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework/Versions/A/Resources/Info.plist36"934EA59A-799D-4900-ADE5-CF09B220EBF7-
+b12EBCFB0-F48D-4B03-9983-AE167C2A7DD4
+
+CTouch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework
+s408714581.234428
+e408714581.237806
+r1
+xTouch
+x/Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework62"Touch Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework890b3c557d5cb841^09e23c557d5cb841^---0#0#1#--207"Touch Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework    cd /Users/sfszh/dev/Horde3D_SDK    /usr/bin/touch -c /Users/sfszh/dev/Horde3D_SDK/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.framework36"CD96BB5F-C124-4E89-8DB8-C9415C0BCE5B-
+b12EBCFB0-F48D-4B03-9983-AE167C2A7DD4
+
